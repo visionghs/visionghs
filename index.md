@@ -82,7 +82,7 @@
   
     
               <a class="topnav__logo" href="/" title="Home" rel="home">
-        <img src="https://visionghs.github.io//images/logo.jpg" alt="Home"/>
+        <img src="https://visionghs.github.io//images/logo.png" alt="Home"/>
       </a>
           
 </div>
