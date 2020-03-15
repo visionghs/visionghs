@@ -16,8 +16,8 @@
 <script src="/sites/default/files/google_tag/drupal_gtm_container/google_tag.script.js?q71t5h" defer></script>
 
     <title>Our Work | World Vision International</title>
-    <link rel="stylesheet" media="all" href="css/stylesheet1.css" />
-<link rel="stylesheet" media="all" href="css/sylesheet2.css" />
+    <link rel="stylesheet" media="all" href="css/styleset1.css" />
+<link rel="stylesheet" media="all" href="css/sylesett2.css" />
 <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:400,700,900" />
 
     
