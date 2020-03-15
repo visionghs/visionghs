@@ -414,14 +414,8 @@
   
   
             <div class="field field--name-thumbnail field--type-image field--label-hidden">    <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 1500px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 960px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 768px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=P6y2H1Dt 1x, https://visionghs.github.io//hopkinton.jpg?itok=P6y2H1Dt 2x" media="(min-width: 480px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=3vs9Mbw_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=3vs9Mbw_ 2x" type="image/jpeg"/>
-            <!--[if IE 9]></video><![endif]-->
-            <img src="https://visionghs.github.io//hopkinton.jpg?itok=3vs9Mbw_" alt="Child splashing clean water" typeof="foaf:Image" />
+  
+            <img src="https://visionghs.github.io//hopkinton.jpg" alt="Child splashing clean water" typeof="foaf:Image" />
 
   </picture>
 
