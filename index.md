@@ -77,7 +77,7 @@
   
     
               <a class="topnav__logo" href="/" title="Home" rel="home">
-        <img src="/themes/custom/wvi_2018/logo.svg" alt="Home"/>
+        <img src="https://visionghs.github.io//images/logo.png" alt="Home"/>
       </a>
           
 </div>
