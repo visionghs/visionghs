@@ -3,7 +3,7 @@
 <link rel="canonical" href="https://visionghs.github.io//our-work" />
 <meta property="og:url" content="https://visionghs.github.io//our-work" />
 <meta property="og:title" content="Our Work" />
-<meta property="og:image" content="https://visionghs.github.io//sites/default/files/2019-03/Colombia_day1_211-web.jpg" />
+<meta property="og:image" content="https://visionghs.github.io//images/Taiki.jpg" />
 <meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
@@ -415,13 +415,13 @@
   
             <div class="field field--name-thumbnail field--type-image field--label-hidden">    <picture>
                 <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="/sites/default/files/styles/hero_rectangle/public/2019-03/Colombia_day1_211-web.jpg?itok=FbvMhYGZ 1x, /sites/default/files/styles/hero_rectangle/public/2019-03/Colombia_day1_211-web.jpg?itok=FbvMhYGZ 2x" media="(min-width: 1500px)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/hero_rectangle/public/2019-03/Colombia_day1_211-web.jpg?itok=FbvMhYGZ 1x, /sites/default/files/styles/hero_rectangle/public/2019-03/Colombia_day1_211-web.jpg?itok=FbvMhYGZ 2x" media="(min-width: 960px)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/hero_rectangle/public/2019-03/Colombia_day1_211-web.jpg?itok=FbvMhYGZ 1x, /sites/default/files/styles/hero_rectangle/public/2019-03/Colombia_day1_211-web.jpg?itok=FbvMhYGZ 2x" media="(min-width: 768px)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/large_landscape/public/2019-03/Colombia_day1_211-web.jpg?itok=cGLlC61q 1x, /sites/default/files/styles/large_landscape/public/2019-03/Colombia_day1_211-web.jpg?itok=cGLlC61q 2x" media="(min-width: 480px)" type="image/jpeg"/>
-              <source srcset="/sites/default/files/styles/medium_portrait/public/2019-03/Colombia_day1_211-web.jpg?itok=QzeM8t1p 1x, /sites/default/files/styles/medium_portrait/public/2019-03/Colombia_day1_211-web.jpg?itok=QzeM8t1p 2x" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//images/Taiki.jpg?itok=FbvMhYGZ 1x, https://visionghs.github.io//images/Taiki.jpg?itok=FbvMhYGZ 2x" media="(min-width: 1500px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//images/Taiki.jpg?itok=FbvMhYGZ 1x, https://visionghs.github.io//images/Taiki.jpg?itok=FbvMhYGZ 2x" media="(min-width: 960px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//images/Taiki.jpg?itok=FbvMhYGZ 1x, https://visionghs.github.io//images/Taiki.jpg?itok=FbvMhYGZ 2x" media="(min-width: 768px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//images/Taiki.jpg?itok=cGLlC61q 1x, https://visionghs.github.io//images/Taiki.jpg?itok=cGLlC61q 2x" media="(min-width: 480px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//images/Taiki.jpg?itok=QzeM8t1p 1x, https://visionghs.github.io//images/Taiki.jpg?itok=QzeM8t1p 2x" type="image/jpeg"/>
             <!--[if IE 9]></video><![endif]-->
-            <img src="/sites/default/files/styles/medium_portrait/public/2019-03/Colombia_day1_211-web.jpg?itok=QzeM8t1p" alt="A Colombian girl stands in her village" typeof="foaf:Image" />
+            <img src="https://visionghs.github.io//images/Taiki.jpg?itok=QzeM8t1p" alt="A Colombian girl stands in her village" typeof="foaf:Image" />
 
   </picture>
 
