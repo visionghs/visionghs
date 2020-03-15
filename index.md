@@ -415,13 +415,13 @@
   
             <div class="field field--name-thumbnail field--type-image field--label-hidden">    <picture>
                 <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="https://visionghs.github.io//styles/hero_rectangle/public/2020-01/W140-0024-088.jpg?itok=U6rvZ-q_ 1x, /sites/default/files/styles/hero_rectangle/public/2020-01/W140-0024-088.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 1500px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/hero_rectangle/public/2020-01/W140-0024-088.jpg?itok=U6rvZ-q_ 1x, /sites/default/files/styles/hero_rectangle/public/2020-01/W140-0024-088.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 960px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/hero_rectangle/public/2020-01/W140-0024-088.jpg?itok=U6rvZ-q_ 1x, /sites/default/files/styles/hero_rectangle/public/2020-01/W140-0024-088.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 768px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/large_landscape/public/2020-01/W140-0024-088.jpg?itok=P6y2H1Dt 1x, /sites/default/files/styles/large_landscape/public/2020-01/W140-0024-088.jpg?itok=P6y2H1Dt 2x" media="(min-width: 480px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/medium_portrait/public/2020-01/W140-0024-088.jpg?itok=3vs9Mbw_ 1x, /sites/default/files/styles/medium_portrait/public/2020-01/W140-0024-088.jpg?itok=3vs9Mbw_ 2x" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 1500px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 960px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=U6rvZ-q_ 2x" media="(min-width: 768px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=P6y2H1Dt 1x, https://visionghs.github.io//hopkinton.jpg?itok=P6y2H1Dt 2x" media="(min-width: 480px)" type="image/jpeg"/>
+              <source srcset="https://visionghs.github.io//hopkinton.jpg?itok=3vs9Mbw_ 1x, https://visionghs.github.io//hopkinton.jpg?itok=3vs9Mbw_ 2x" type="image/jpeg"/>
             <!--[if IE 9]></video><![endif]-->
-            <img src="https://visionghs.github.io//styles/medium_portrait/public/2020-01/W140-0024-088.jpg?itok=3vs9Mbw_" alt="Child splashing clean water" typeof="foaf:Image" />
+            <img src="https://visionghs.github.io//hopkinton.jpg?itok=3vs9Mbw_" alt="Child splashing clean water" typeof="foaf:Image" />
 
   </picture>
 
