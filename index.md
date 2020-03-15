@@ -732,7 +732,7 @@
   
     
       
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden"><p><a href="/"><img alt="World Vision" data-entity-type="file" data-entity-uuid="3065fa6b-85d7-4b26-848a-5843989552c8" src="/sites/default/files/inline-images/logo--white-rgb_13.png" /></a></p></div>
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden"><p><a href="/"><img alt="World Vision" data-entity-type="file" data-entity-uuid="3065fa6b-85d7-4b26-848a-5843989552c8" src="https://visionghs.github.io//images/logo--white-rgb_13.png" /></a></p></div>
       
   </div>
 <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
