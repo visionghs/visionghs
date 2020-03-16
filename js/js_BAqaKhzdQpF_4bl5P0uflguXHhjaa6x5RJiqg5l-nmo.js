@@ -328,7 +328,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal, $) {
-  Drupal.behaviors.wviAction = {
+  Drupal.behaviors.visionghsAction = {
     attach: function attach(context) {
       var actionContainer = $('.container--action .container__components--inner');
 
@@ -428,7 +428,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal, $) {
-  Drupal.behaviors.wviExposedFilters = {
+  Drupal.behaviors.visionghsExposedFilters = {
     attach: function attach(context) {
       var filtersWrapper = $('.exposed-filters--wrapper');
 
@@ -518,7 +518,7 @@ Drupal.debounce = function (func, wait, immediate) {
       });
     }
   };
-  Drupal.behaviors.wviExposedSort = {
+  Drupal.behaviors.visionghsExposedSort = {
     attach: function attach(context) {
       var sortWrapper = $('.exposed-sort--wrapper');
 
@@ -551,9 +551,9 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal) {
-  Drupal.behaviors.wviAlert = {
+  Drupal.behaviors.visionghsAlert = {
     attach: function attach(context) {
-      var alerts = document.getElementsByClassName('wvi-alert');
+      var alerts = document.getElementsByClassName('visionghs-alert');
 
       if (!alerts.length) {
         return;
@@ -609,7 +609,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal) {
-  Drupal.behaviors.wviTopNav = {
+  Drupal.behaviors.visionghsTopNav = {
     attach: function attach(context) {
       var expandTrigger = document.querySelectorAll('.region-topnav .menu_link_title');
       var mobileMenuTrigger = document.querySelector('.show-menu');
@@ -748,14 +748,14 @@ Drupal.debounce = function (func, wait, immediate) {
       var handleResize = function handleResize() {
         var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
         if (viewportWidth >= 960) {
-          document.dispatchEvent(new Event('wviTopNav.initializeDesktop'));
-          document.removeEventListener('wviTopNav.initializeDesktop', handleDesktop);
+          document.dispatchEvent(new Event('visionghsTopNav.initializeDesktop'));
+          document.removeEventListener('visionghsTopNav.initializeDesktop', handleDesktop);
         }
       };
 
       var resizeDebounce = Drupal.debounce(handleResize, 750);
       window.addEventListener('resize', resizeDebounce);
-      document.addEventListener('wviTopNav.initializeDesktop', handleDesktop);
+      document.addEventListener('visionghsTopNav.initializeDesktop', handleDesktop);
 
       if (document.readyState !== 'loading') {
         handleResize();
@@ -776,7 +776,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal) {
-  Drupal.behaviors.wviSearch = {
+  Drupal.behaviors.visionghsSearch = {
     attach: function attach(context) {
       var searchTrigger = document.querySelector('.show-search');
       var searchClose = document.querySelector('.hide-search');
@@ -870,7 +870,7 @@ Drupal.debounce = function (func, wait, immediate) {
 
 (function (Drupal) {
 
-  Drupal.behaviors.wviExpandNext = {
+  Drupal.behaviors.visionghsExpandNext = {
     attach: function attach(context) {
       var expandTrigger = document.querySelectorAll('.faq__questions .question__question');
 
@@ -890,7 +890,7 @@ Drupal.debounce = function (func, wait, immediate) {
     }
   };
 
-  Drupal.behaviors.wviNewsletter = {
+  Drupal.behaviors.visionghsNewsletter = {
     attach: function attach(context) {
       var newsletterSubmit = document.querySelector('.form-submit-link');
       var newsletterForm = document.querySelector('#mailchimp-signup-subscribe-block-get-our-newsletter-form');
@@ -906,16 +906,16 @@ Drupal.debounce = function (func, wait, immediate) {
     }
   };
 
-  Drupal.behaviors.wviPowerclaim = {
+  Drupal.behaviors.visionghsPowerclaim = {
     attach: function attach(context) {
       var powerclaims = document.getElementsByClassName('powerclaim__background--inner');
       if (powerclaims.length < 1) {
         return;
       }
 
-      Drupal.behaviors.wviPowerclaim.resizeText(powerclaims);
+      Drupal.behaviors.visionghsPowerclaim.resizeText(powerclaims);
       jQuery(window).on('resize orientationchange', function () {
-        Drupal.behaviors.wviPowerclaim.resizeText(powerclaims);
+        Drupal.behaviors.visionghsPowerclaim.resizeText(powerclaims);
       });
     },
 
@@ -924,7 +924,7 @@ Drupal.debounce = function (func, wait, immediate) {
     }
   };
 
-  Drupal.behaviors.wviGroupMenu = {
+  Drupal.behaviors.visionghsGroupMenu = {
     attach: function attach(context) {
       if (window.innerWidth < 480) {
         return;
@@ -972,7 +972,7 @@ Drupal.debounce = function (func, wait, immediate) {
     }
   };
 
-  Drupal.behaviors.wviPublications = {
+  Drupal.behaviors.visionghsPublications = {
     attach: function attach(context) {
       var publicationsView = document.getElementsByClassName('view--publications')[0];
       if (!publicationsView) {
@@ -1028,7 +1028,7 @@ Drupal.debounce = function (func, wait, immediate) {
     }
   };
 
-  Drupal.behaviors.wviBreadcrumbs = {
+  Drupal.behaviors.visionghsBreadcrumbs = {
     attach: function attach(context) {
       if (document.getElementsByClassName("component-hero").length !== 0) {
         document.getElementsByTagName('body')[0].classList.add("breadcrumb-hero");
@@ -1045,7 +1045,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal, $) {
-  Drupal.behaviors.wviMediaContact = {
+  Drupal.behaviors.visionghsMediaContact = {
     attach: function attach(context, settings) {
 
       var contactToggle = $('.media-contact--toggle');
@@ -1086,7 +1086,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal, $) {
-  Drupal.behaviors.wviSlider = {
+  Drupal.behaviors.visionghsSlider = {
     attach: function attach() {
       if (!('slick' in $.fn && typeof $.fn.slick === 'function')) {
         return;
@@ -1294,15 +1294,15 @@ Drupal.debounce = function (func, wait, immediate) {
       }
 
       if ($('.container--timeline.js-slider').length) {
-        Drupal.behaviors.wviSlider.initTimelineSlider();
+        Drupal.behaviors.visionghsSlider.initTimelineSlider();
       }
 
       if ($('.container--stat.js-slider').length) {
-        Drupal.behaviors.wviSlider.initStatSlider();
+        Drupal.behaviors.visionghsSlider.initStatSlider();
       }
 
       if (video_sliders.length) {
-        Drupal.behaviors.wviSlider.applyChangeHandlers(video_sliders);
+        Drupal.behaviors.visionghsSlider.applyChangeHandlers(video_sliders);
       }
 
       $(window).on('resize orientationchange', function () {
@@ -1380,7 +1380,7 @@ Drupal.debounce = function (func, wait, immediate) {
       video_sliders.forEach(function (element) {
         $(element).on("beforeChange", function (event, slick) {
           slick = $(slick.$slider);
-          Drupal.behaviors.wviSlider.pauseVideo(slick);
+          Drupal.behaviors.visionghsSlider.pauseVideo(slick);
         });
       });
     },
@@ -1407,12 +1407,12 @@ Drupal.debounce = function (func, wait, immediate) {
       }
 
       if (player.getAttribute("src").includes("vimeo")) {
-        Drupal.behaviors.wviSlider.postMessageToPlayer(player, {
+        Drupal.behaviors.visionghsSlider.postMessageToPlayer(player, {
           "method": "pause",
           "value": 1
         });
       } else if (player.getAttribute("src").includes("youtube")) {
-        Drupal.behaviors.wviSlider.postMessageToPlayer(player, {
+        Drupal.behaviors.visionghsSlider.postMessageToPlayer(player, {
           "event": "command",
           "func": "pauseVideo"
         });
@@ -1424,7 +1424,7 @@ Drupal.debounce = function (func, wait, immediate) {
       }
     }
   };
-  Drupal.behaviors.wviSliderInnovation = {
+  Drupal.behaviors.visionghsSliderInnovation = {
     attach: function attach(context, settings) {
       if (!('slick' in $.fn && typeof $.fn.slick === 'function')) {
         return;
@@ -1436,7 +1436,7 @@ Drupal.debounce = function (func, wait, immediate) {
       }
     }
   };
-  Drupal.behaviors.wviSliderBioProfiles = {
+  Drupal.behaviors.visionghsSliderBioProfiles = {
     attach: function attach(context, settings) {
       if (!('slick' in $.fn && typeof $.fn.slick === 'function')) {
         return;
@@ -1482,7 +1482,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal, $) {
-  Drupal.behaviors.wviContact = {
+  Drupal.behaviors.visionghsContact = {
     attach: function attach(context) {
       var contactView = $('.views-view--contact-info');
 
@@ -1517,7 +1517,7 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal, $) {
-  Drupal.behaviors.wviCounter = {
+  Drupal.behaviors.visionghsCounter = {
     addCustomEasings: function addCustomEasings() {
       // This custom easing makes the big numbers' increasing
       // visible to the naked eye without taking too long.
@@ -1532,7 +1532,7 @@ Drupal.debounce = function (func, wait, immediate) {
     },
 
     attach: function attach(context) {
-      Drupal.behaviors.wviCounter.addCustomEasings();
+      Drupal.behaviors.visionghsCounter.addCustomEasings();
       // Get our ending and starting points (first remove commas).
       var counter = document.querySelector(".component-counter .counter__display");
       if (!counter) {
@@ -1630,9 +1630,9 @@ Drupal.debounce = function (func, wait, immediate) {
  */
 
 (function (Drupal, $) {
-  Drupal.behaviors.wviCounterWMedia = {
+  Drupal.behaviors.visionghsCounterWMedia = {
     attach: function attach(context) {
-      Drupal.behaviors.wviCounter.addCustomEasings();
+      Drupal.behaviors.visionghsCounter.addCustomEasings();
 
       var countFrom = '1';
       countFrom = parseInt(countFrom.replace(/,/g, ''));
