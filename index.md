@@ -655,12 +655,7 @@
   
   
             <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="https://visionghs.github.io//styles/extra_large_landscape/public/2019-03/BAIV1887-site.jpg?itok=2UL2FgfB 1x" media="(min-width: 960px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/large_landscape/public/2019-03/BAIV1887-site.jpg?itok=4ISjY0r8 1x" media="(min-width: 768px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/medium_landscape/public/2019-03/BAIV1887-site.jpg?itok=wS_AVd-- 1x" type="image/jpeg"/>
-            <!--[if IE 9]></video><![endif]-->
-            <img src="https://visionghs.github.io//styles/medium_landscape/public/2019-03/BAIV1887-site.jpg?itok=wS_AVd--" alt="A group of happy and smiling school children in Ghana" typeof="foaf:Image" />
+           <img src="https://visionghs.github.io//images/Digital.jpg" alt="A group of students using ipad" typeof="foaf:Image" />
 
   </picture>
 
@@ -691,12 +686,7 @@
   
   
             <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="https://visionghs.github.io//styles/extra_large_landscape/public/2019-03/Sea%20Sweep_3.jpg?itok=M0YXSBha 1x" media="(min-width: 960px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/large_landscape/public/2019-03/Sea%20Sweep_3.jpg?itok=1zEGzLmk 1x" media="(min-width: 768px)" type="image/jpeg"/>
-              <source srcset="https://visionghs.github.io//styles/medium_landscape/public/2019-03/Sea%20Sweep_3.jpg?itok=vm8GtxYZ 1x" type="image/jpeg"/>
-            <!--[if IE 9]></video><![endif]-->
-            <img src="https://visionghs.github.io//styles/medium_landscape/public/2019-03/Sea%20Sweep_3.jpg?itok=vm8GtxYZ" alt="Operation Sea Sweep 1979" typeof="foaf:Image" />
+           <img src="https://visionghs.github.io//images/iyrc.jpg" alt="IYRC 2019" typeof="foaf:Image" />
 
   </picture>
 
@@ -724,12 +714,7 @@
   
   
             <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
-                <!--[if IE 9]><video style="display: none;"><![endif]-->
-              <source srcset="https://visionghs.github.io//styles/extra_large_landscape/public/2019-09/D165-0799-124.JPG_922094.png?itok=g4Qp8B2D 1x" media="(min-width: 960px)" type="image/png"/>
-              <source srcset="https://visionghs.github.io//styles/large_landscape/public/2019-09/D165-0799-124.JPG_922094.png?itok=euT7Cv0z 1x" media="(min-width: 768px)" type="image/png"/>
-              <source srcset="https://visionghs.github.io//styles/medium_landscape/public/2019-09/D165-0799-124.JPG_922094.png?itok=AeYBRC4G 1x" type="image/png"/>
-            <!--[if IE 9]></video><![endif]-->
-            <img src="https://visionghs.github.io//styles/medium_landscape/public/2019-09/D165-0799-124.JPG_922094.png?itok=AeYBRC4G" alt="A group of karate girls in India" typeof="foaf:Image" />
+            <img src="https://visionghs.github.io//images/winner.jpg" alt="case study winners 2019" typeof="foaf:Image" />
 
   </picture>
 
@@ -808,7 +793,7 @@
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
               <h3 class="cta__title">
-        <p>Meet your our team!</p>
+        <p>Meet our team!</p>
 
         </h3>
                                 <div class="cta__btns">
