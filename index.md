@@ -757,7 +757,7 @@
 </div>
   <div class="cta__content">
     <div class="cta__content--inner">
-    <div class="cta__icon">  <img src="https://visionghs.github.io//2019-03/Screen%20Shot%202019-03-25%20at%2010.39.06%20AM.png" alt="It takes a world" typeof="foaf:Image" />
+    <div class="cta__icon">  <img src="https://visionghs.github.io//images/GHLC2018.png" alt="students" typeof="foaf:Image" />
 
 </div>
               <h3 class="cta__title">
@@ -783,7 +783,7 @@
   <div class="cta__image"><div>
   
   
-            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//2019-03/Screen%20Shot%202019-03-25%20at%2010.42.29%20AM.png" alt="Screen Shot 2019-03-25 at 10.42.29 AM.png" typeof="foaf:Image" />
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/team.png" alt="team" typeof="foaf:Image" />
 
 </div>
       
