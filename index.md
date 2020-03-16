@@ -749,7 +749,7 @@
   <div class="cta__image"><div>
   
   
-            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//2019-03/Screen%20Shot%202019-03-25%20at%2010.39.12%20AM.png" alt="Screen Shot 2019-03-25 at 10.39.12 AM.png" typeof="foaf:Image" />
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/GHLC2018.png" alt="ghlc 2018" typeof="foaf:Image" />
 
 </div>
       
