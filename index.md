@@ -629,9 +629,9 @@
 
         <div class="eck-entity component--media background-color-white accent-color-orange single-item">
     
-            <div class="field field--name-field-component-heading field--type-text-long field--label-hidden"><p><strong>Meet Nancy</strong></p>
+            <div class="field field--name-field-component-heading field--type-text-long field--label-hidden"><p><strong>Meet Katrina</strong></p>
 
-<p>With the help of child sponsorship, Nancy became one of the first girls in her community to graduate high school and was inspired to become a humanitarian.</p></div>
+<p>Katrina was a Vision Volunteer in high school and attended our 2017 & 2018 conferences. She is entering her junior year at Harvard for the 2020-2021 school year and is a leader of Vision and the Global Health and Leadership Conference at Harvard College.</p></div>
       
       <div class="field field--name-field-component-media field--type-entity-reference field--label-hidden">
               <div><div>
@@ -776,15 +776,15 @@
 
 </div>
               <h3 class="cta__title">
-        <p>Change the World</p>
+        <p>Become a Vision Global Health Fellow</p>
 
         </h3>
                     <div class="cta__subtitle">
-        Create projects that impact lives
+        Engage with global health in a deeper way.
         </div>
                     <div class="cta__description">
         
-            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>Violence, in all its forms, is the biggest issue affecting children today. But it doesn't have to be this way.</p></div>
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>Students interested in continuing the work developed in the Global Health and Leadership Conference may apply to be a Vision Global Health Fellow. Selected Fellows work closely with the Vision team to improve on annual programming. They improve the original project design, receive special training in the topic of interest, collect data, discuss findings, and prepare a presentation for the annual Global Health and Leadership Conference hosted at Columbia, Harvard, and Johns Hopkins.</p></div>
       
         </div>
                     <div class="cta__btns">
@@ -808,7 +808,7 @@
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
               <h3 class="cta__title">
-        <p>Together we&#039;ve impacted the lives of over 200 million vulnerable children by tackling the root causes of poverty.</p>
+        <p>Meet your our team!</p>
 
         </h3>
                                 <div class="cta__btns">
@@ -859,13 +859,13 @@
         <a href="/our-leadership">Our Leadership</a>
               </li>
                 <li class="menu-item--our-structure">
-        <a href="/our-structure">Our Structure</a>
+        <a href="/our-structure">Our Conference</a>
               </li>
                 <li class="menu-item--our-partners">
         <a href="/our-partners" data-drupal-link-system-path="group/1026">Our Partners</a>
               </li>
                 <li class="menu-item--accountability">
-        <a href="/accountability" data-drupal-link-system-path="node/72741">Accountability</a>
+        <a href="/accountability" data-drupal-link-system-path="node/72741">Our Reach</a>
               </li>
                 <li class="menu-item--faq">
         <a href="/faq">FAQ</a>
@@ -874,37 +874,37 @@
   
               </li>
                 <li class="menu-item--our-approaches-to-change menu-item--expandable">
-        <a href="/our-approaches" data-drupal-link-system-path="node/72731">Our Approaches to Change</a>
+        <a href="/our-approaches" data-drupal-link-system-path="node/72731">Global Health and Leadership Conference</a>
                                 <ul>
                     <li class="menu-item--our-global-strategy">
-        <a href="/our-promise" data-drupal-link-system-path="node/72696">Our Global Strategy</a>
+        <a href="/our-promise" data-drupal-link-system-path="node/72696">Apply</a>
               </li>
                 <li class="menu-item--the-role-of-faith">
-        <a href="/role-faith" data-drupal-link-system-path="node/72726">The Role of Faith</a>
+        <a href="/role-faith" data-drupal-link-system-path="node/72726">Speakers</a>
               </li>
                 <li class="menu-item--global-campaign">
-        <a href="/ittakesaworld" data-drupal-link-system-path="group/1">Global Campaign</a>
+        <a href="/ittakesaworld" data-drupal-link-system-path="group/1">Schedule</a>
               </li>
                 <li class="menu-item--work-in-fragile-places">
-        <a href="/fragile-context">Work in Fragile Places</a>
+        <a href="/fragile-context"></a> FAQS
               </li>
         </ul>
   
               </li>
                 <li class="menu-item--careers--internships menu-item--expandable">
-        <a href="https://careers.wvi.org/">Careers &amp; Internships</a>
+        <a href="https://careers.wvi.org/"> Join Our Mission</a>
                                 <ul>
                     <li class="menu-item--open-positions">
-        <a href="https://careers.wvi.org/job-search">Open Positions</a>
+        <a href="https://careers.wvi.org/job-search">College & Graduate Students</a>
               </li>
                 <li class="menu-item--explore-teams">
-        <a href="https://careers.wvi.org/teams">Explore Teams</a>
+        <a href="https://careers.wvi.org/teams">High School Students</a>
               </li>
                 <li class="menu-item--explore-locations">
-        <a href="https://careers.wvi.org/locations">Explore Locations</a>
+        <a href="https://careers.wvi.org/locations">Middle School Students</a>
               </li>
                 <li class="menu-item--our-culture">
-        <a href="https://careers.wvi.org/culture">Our Culture</a>
+        <a href="https://careers.wvi.org/culture">Professionals</a>
               </li>
         </ul>
   
@@ -913,28 +913,28 @@
         <a href="/contact-us" data-drupal-link-system-path="node/72846">Connect With Us</a>
                                 <ul>
                     <li class="menu-item--facebook">
-        <a href="https://www.facebook.com/WorldVisionInternational" class="facebook-link" target="_blank">Facebook</a>
+        <a href="https://www.facebook.com/HarvardVision/" class="facebook-link" target="_blank">Facebook</a>
               </li>
                 <li class="menu-item--youtube">
-        <a href="https://www.youtube.com/user/WorldVisionStory" class="youtube-link" target="_blank">Youtube</a>
+        <a href="https://www.youtube.com/" class="youtube-link" target="_blank">Youtube</a>
               </li>
                 <li class="menu-item--twitter">
-        <a href="https://twitter.com/WorldVision" class="twitter-link" target="_blank">Twitter</a>
+        <a href="https://twitter.com/Harvard_Vision" class="twitter-link" target="_blank">Twitter</a>
               </li>
                 <li class="menu-item--instagram">
-        <a href="https://www.instagram.com/worldvision" class="instagram-link" target="_blank">Instagram</a>
+        <a href="https://www.instagram.com/harvardcollegevision/" class="instagram-link" target="_blank">Instagram</a>
               </li>
                 <li class="menu-item--linkedin">
-        <a href="https://www.linkedin.com/company/worldvision/" class="linkedin-link" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/paulmatthewlewis/" class="linkedin-link" target="_blank">LinkedIn</a>
               </li>
                 <li class="menu-item--contact-us">
         <a href="/contact-us" data-drupal-link-system-path="node/72846">Contact Us</a>
               </li>
                 <li class="menu-item--world-vision-in-your-country">
-        <a href="/locations" data-drupal-link-system-path="node/72811">World Vision in Your Country</a>
+        <a href="mailto:info@harvardcollegevision.org" data-drupal-link-system-path="node/72811">Email</a>
               </li>
                 <li class="menu-item--report-a-concern">
-        <a href="http://worldvision.ethicspoint.com">Report a Concern</a>
+        <a href="https://www.messenger.com/t/HarvardVision">Facebook Messenger</a>
               </li>
         </ul>
   
@@ -944,31 +944,7 @@
 
 
   </nav>
-<div class="mailchimp-signup-subscribe-form block block-mailchimp-signup block-mailchimp-signup-subscribe-blockget-our-newsletter block--mailchimpsubscriptionformgetournewsletter" data-drupal-selector="mailchimp-signup-subscribe-block-get-our-newsletter-form" id="block-mailchimpsubscriptionformgetournewsletter">
-  
-      <h4 class="block__title">Get Our Newsletter</h4>
-    
-      <form action="/" method="post" id="mailchimp-signup-subscribe-block-get-our-newsletter-form" accept-charset="UTF-8">
-  <div>
-  <div id="mailchimp-newsletter-805c2c8c67-mergefields" class="mailchimp-newsletter-mergefields"><div class="js-form-item form-item js-form-type-email form-item-mergevars-email js-form-item-mergevars-email form-no-label">
-      <label for="edit-mergevars-email" class="visually-hidden js-form-required form-required">Email Address</label>
-        <input data-drupal-selector="edit-mergevars-email" type="email" id="edit-mergevars-email" name="mergevars[EMAIL]" value="" size="25" maxlength="254" placeholder="Email Address" class="form-email required" required="required" aria-required="true" />
 
-        </div>
-<div class="js-form-item form-item js-form-type-checkbox form-item-mergevars-terms js-form-item-mergevars-terms">
-        <input data-drupal-selector="edit-mergevars-terms" type="checkbox" id="edit-mergevars-terms" name="mergevars[terms]" value="1" class="form-checkbox required" required="required" aria-required="true" />
-
-        <label for="edit-mergevars-terms" class="option js-form-required form-required">I agree to <a href="/terms">WVI's Terms & Conditions</a>.</label>
-      </div>
-<a class="form-submit-link" href="/"></a></div><input autocomplete="off" data-drupal-selector="form-yhimhatry4avrte0uixowmtnxz5zpl3ygikiwxxfzjo" type="hidden" name="form_build_id" value="form-yhImhaTry4AVrTE0UiXowMtnxz5zpL3ygIkiWXxFZJo" />
-<input data-drupal-selector="edit-mailchimp-signup-subscribe-block-get-our-newsletter-form" type="hidden" name="form_id" value="mailchimp_signup_subscribe_block_get_our_newsletter_form" />
-<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Submit" class="button js-form-submit form-submit" />
-</div>
-
-  </div>
-</form>
-
-  </div>
 <div id="block-accountablenowlogo" class="block block-block-content block-block-contentc32d35ab-86e0-4257-b5df-c684ffe90575 block--accountablenowlogo">
   
     
@@ -985,12 +961,12 @@
 
         
               <ul data-region="footer">
-          <li class='copyright'>&copy; 2020 World Vision International</li>
+          <li class='copyright'>&copy; 2020 Vision Global Health Society</li>
           <li>
-        <a href="/privacy" data-drupal-link-system-path="node/41736">Privacy Policy</a>
+        <a href="/Founded" data-drupal-link-system-path="node/41736">Founded</a>
               </li>
           <li>
-        <a href="/terms-use" data-drupal-link-system-path="node/45251">Terms of Use</a>
+        <a href="Harvard" data-drupal-link-system-path="node/45251">Harvard College 2014</a>
               </li>
         </ul>
   
