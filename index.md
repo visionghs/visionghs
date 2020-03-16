@@ -415,7 +415,7 @@
   
             <div class="field field--name-thumbnail field--type-image field--label-hidden">    <picture>
   
-            <img src="https://visionghs.github.io//hopkinton.jpg" alt="Child splashing clean water" typeof="foaf:Image" />
+            <img src="https://visionghs.github.io//images/hopkinton.jpg" alt="Hopkinton" typeof="foaf:Image" />
 
   </picture>
 
@@ -515,7 +515,7 @@
   <div class="cta__image"><div>
   
   
-            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//2020-03/Na_Hang_3_Medium_res_0.jpg" alt="COVID-19-Masks" typeof="foaf:Image" />
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/Taiki1.jpg" alt="COVID-19-Masks" typeof="foaf:Image" />
 
 </div>
       
@@ -550,7 +550,7 @@
         <div class="container__components ">
             <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/child-protection">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Asset%202.svg" alt="Child protection icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Child protection icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Child Protection</div>
@@ -559,7 +559,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/disaster-management">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Disaster%20Management%20Icon.svg" alt="Disaster Management Icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Disaster Management Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Disaster Management</div>
@@ -568,7 +568,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/education">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Education%20Icon.svg" alt="Education icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Education icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Education</div>
@@ -577,7 +577,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/health">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Health%20Icon.svg" alt="Health Icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Health Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Health</div>
@@ -586,7 +586,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/faith-and-development">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Faith%20Icon_0.svg" alt="Faith and Development icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Faith and Development icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Faith &amp; Development</div>
@@ -595,7 +595,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/nutrition">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Nutrition%20Icon.svg" alt="Nutrition Icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Nutrition Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Nutrition</div>
@@ -604,7 +604,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/economic-development">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Economic%20Development.svg" alt="Economic Development Icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Economic Development Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Economic Development</div>
@@ -613,7 +613,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="/cleanwater">
-      <div class="icon__image">  <img src="https://visionghs.github.io//icon/icon/Water%20Icon.svg" alt="Water Icon" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Water Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Water</div>
@@ -635,10 +635,10 @@
       
       <div class="field field--name-field-component-media field--type-entity-reference field--label-hidden">
               <div><div>
+    <img src="https://visionghs.github.io//images/Katrina.jpg" alt="Katrina" typeof="foaf:Image" />
   
-  
-            <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden"><iframe src="/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DRR6doOwK2wc&amp;max_width=0&amp;max_height=0&amp;hash=9gLU7b7g0n8rDjG_jELeWcsixSdjf18eg9izOoCQ6KI" frameborder="0" allowtransparency width="480" height="270" class="media-oembed-content" title="The Impact of Child Sponsorship - Meet Nancy (60 sec)"></iframe>
-</div>
+ <!--           <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden"><iframe src="/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DRR6doOwK2wc&amp;max_width=0&amp;max_height=0&amp;hash=9gLU7b7g0n8rDjG_jELeWcsixSdjf18eg9izOoCQ6KI" frameborder="0" allowtransparency width="480" height="270" class="media-oembed-content" title="The Impact of Child Sponsorship - Meet Nancy (60 sec)"></iframe>
+</div> --> 
       
 </div>
 </div>
