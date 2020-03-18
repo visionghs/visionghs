@@ -477,7 +477,7 @@
 
         
   <div class="eck-entity component--view component--view--locations">
-          <div class="view__header"><h4>3 sites</h4></div>
+          <div class="view__header"><div class="hero__title">3 sites</div></div>
         <div class="view__content">
    
   
