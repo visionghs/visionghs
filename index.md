@@ -140,7 +140,7 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//About/Reach" data-drupal-link-system-path="group/586">Reach</a>
+      <a href="https://visionghs.github.io//About/Mentoring" data-drupal-link-system-path="group/586">Mentoring</a>
                         <img src="https://visionghs.github.io//images/menu5.jpg" alt="A young girl writes on a chalkboard" typeof="foaf:Image" />
 
 
@@ -176,7 +176,7 @@
           </li>
       
     <li class="menu-item">
-      <a href="/see-all-sectors" class="show-more">View All Sectors</a>
+      <a href="https://visionghs.github.io//About" class="show-more">View All</a>
                       
 
           </li>
@@ -244,7 +244,7 @@
           </li>
       
     <li class="menu-item">
-      <a href="/locations" class="show-more" data-drupal-link-system-path="node/72811">Conference</a>
+      <a href="https://visionghs.github.io//GHLC" class="show-more" data-drupal-link-system-path="node/72811">See All</a>
                       
 
           </li>
@@ -294,7 +294,7 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GetInvolved/Professionals" class="thought-leader" data-drupal-link-system-path="node/72831">Professionals</a>
+      <a href="https://visionghs.github.io//GetInvolved/Professionals" class="thought-leader" data-drupal-link-system-path="node/72831">Postgrad & Professionals</a>
                         <img src="https://visionghs.github.io//images/menu17.jpg" alt="A man walks through a field" typeof="foaf:Image" />
 
 
@@ -412,7 +412,7 @@
                           <div class="hero__title">
             Create Community Interventions, Learn to Research an Issue, Write a Report, and Become Civically Minded Leaders!
           </div>
-                                  <a href="/cleanwater" class="btn btn--lg btn--primary--orange">Learn More</a>
+                                  <a href="https://visionghs.github.io//About" class="btn btn--lg btn--primary--orange">Learn More</a>
               </div>
     </div>
   </div>
@@ -574,7 +574,7 @@
   </div>
 
         <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/nutrition">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
       <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Nutrition Icon" typeof="foaf:Image" />
 
 </div>
@@ -602,7 +602,7 @@
 
   
     </div>
-          <div class="container__footer"><p><a class="btn--primary--orange" href="https://visionghs.github.io//About/Projects/all">SEE ALL</a></p></div>
+          <div class="container__footer"><p><a class="btn--primary--orange" href="https://visionghs.github.io//About/Projects/All">SEE ALL</a></p></div>
         
   </div>
 </div>
@@ -630,7 +630,7 @@
   <div class="container--inner">
             <div class="container__slider">
             <div  class="eck-entity component-card">
-    <a href="https://visionghs.github.io//About/GHLC">
+    <a href="https://visionghs.github.io//GHLC">
       <div class="card__image"><div>
   
   
@@ -689,7 +689,7 @@
   </div>
 
         <div  class="eck-entity component-card">
-    <a href="https://visionghs.github.io//About/Reach">
+    <a href="https://visionghs.github.io//About/Mentoring">
       <div class="card__image"><div>
   
   
@@ -739,7 +739,7 @@
     <div class="cta__content--inner">
     
               <h3 class="cta__title">
-        <p>Become a Vision Global Health Fellow</p>
+        <p>Become a Vision Global Health Scholar</p>
 
         </h3>
                     <div class="cta__subtitle">
@@ -751,7 +751,7 @@
       
         </div>
                     <div class="cta__btns">
-          <a href="https://visionghs.github.io//Fellow" class="cta__btn">Learn More</a>
+          <a href="https://visionghs.github.io//Highschool/Scholars" class="cta__btn">Learn More</a>
         </div>
           </div>
   </div>
@@ -810,7 +810,7 @@
         
               <ul data-region="footer">
                     <li class="menu-item--about-us menu-item--expandable">
-        <a href="/about-us" data-drupal-link-system-path="node/72551">About Us</a>
+        <a href="https://visionghs.github.io//About" data-drupal-link-system-path="node/72551">About Us</a>
                                 <ul>
                     <li class="menu-item--our-vision--values">
         <a href="https://visionghs.github.io//About/Vision">Our Vision &amp; Values</a>
@@ -828,10 +828,10 @@
         <a href="https://visionghs.github.io//About/Partners" data-drupal-link-system-path="group/1026">Our Partners</a>
               </li>
                 <li class="menu-item--accountability">
-        <a href="https://visionghs.github.io//About/Reach" data-drupal-link-system-path="node/72741">Our Reach</a>
+        <a href="https://visionghs.github.io//About/Mentoring" data-drupal-link-system-path="node/72741">Mentoring</a>
               </li>
                 <li class="menu-item--faq">
-        <a href="https://visionghs.github.io//GHLC/FAQS">FAQ</a>
+        <a href="https://visionghs.github.io//Highschool/Scholars">Scholars</a>
               </li>
         </ul>
   
@@ -891,7 +891,7 @@
         <a href="https://www.linkedin.com/in/paulmatthewlewis/" class="linkedin-link" target="_blank">LinkedIn</a>
               </li>
                 <li class="menu-item--contact-us">
-        <a href="/contact-us" data-drupal-link-system-path="node/72846">Contact Us</a>
+        <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Contact Us</a>
               </li>
                 <li class="menu-item--world-vision-in-your-country">
         <a href="mailto:info@harvardcollegevision.org" data-drupal-link-system-path="node/72811">Email</a>
@@ -926,10 +926,10 @@
               <ul data-region="footer">
           <li class='copyright'>&copy; 2020 Vision Global Health Society</li>
           <li>
-        <a href="/Founded" data-drupal-link-system-path="node/41736">Founded:</a>
+        <a href="https://visionghs.github.io//History" data-drupal-link-system-path="node/41736">Founded: 2014</a>
               </li>
           <li>
-        <a href="Harvard" data-drupal-link-system-path="node/45251">Harvard College 2014</a>
+        <a href="https://college.harvard.edu/" data-drupal-link-system-path="node/45251">Harvard College</a>
               </li>
         </ul>
   
