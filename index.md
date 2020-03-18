@@ -9,10 +9,10 @@
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="shortcut icon" href="https://visionghs.github.io//favicon.png" type="image/png" />
-<link rel="alternate" hreflang="en" href="https://visionghs.github.io//homepage" />
-<link rel="alternate" hreflang="fr" href="https://visionghs.github.io//fr/homepage" />
-<link rel="alternate" hreflang="es" href="https://visionghs.github.io//es/homepage" />
-<link rel="revision" href="https://visionghs.github.io//homepage" />
+<link rel="alternate" hreflang="en" href="https://visionghs.github.io//" />
+<link rel="alternate" hreflang="fr" href="https://visionghs.github.io//" />
+<link rel="alternate" hreflang="es" href="https://visionghs.github.io//" />
+<link rel="revision" href="https://visionghs.github.io//" />
 <script src="https://visionghs.github.io//google_tag/drupal_gtm_container/google_tag.script.js?q71t5h" defer></script>
 
   
@@ -53,7 +53,7 @@
 <input  type="checkbox" checked="checked" id="visionghs-alert-1-26-toggle" class="visionghs-alert--toggle hidden">
 <label  class="visionghs-alert" id="visionghs-alert-1-26" for="visionghs-alert-1-26-toggle">
   <span class="content">
-          <a href="https://visionghs.github.io//emergencies/coronavirus-health-crisis" class="field--name-message">Help stop the spread of the coronavirus and support those impacted</a>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" class="field--name-message">The 2020 conference has gone virtual due to the Coronavirus. Check out CDC for information</a>
         <div class="close">✕</div>
   </span>
 </label>
@@ -105,7 +105,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Vision" class="impact">Our Vision & Values</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--our-impact_11.jpg?itok=Fih-eKED" alt="A girl smiles in Ghana" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu.1jpg" alt="A girl smiles in Ghana" typeof="foaf:Image" />
 
 
 
@@ -114,7 +114,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/History" data-drupal-link-system-path="group/641">History</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-04/D055-0626-234.jpg_394905_0.jpg?itok=ZCizxXUN" alt="A Cambodian girl smiles" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu2.jpg" alt="A Cambodian girl smiles" typeof="foaf:Image" />
 
 
 
@@ -123,7 +123,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Conference" class="dis-man" data-drupal-link-system-path="group/606">Conference</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--disaster-management_11.jpg?itok=qOQNyA3N" alt="woman standing outside " typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu.jpg3" alt="woman standing outside " typeof="foaf:Image" />
 
 
 
@@ -132,7 +132,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Partners" class="econ-dev" data-drupal-link-system-path="group/651">Partners</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--economic-development_11.jpg?itok=2V2cDB2e" alt="Young boy" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu4.jpg" alt="Young boy" typeof="foaf:Image" />
 
 
 
@@ -141,7 +141,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Reach" data-drupal-link-system-path="group/586">Reach</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-04/D256-0318-32_697779-web2.jpg?itok=Gikd_uTG" alt="A young girl writes on a chalkboard" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu5.jpg" alt="A young girl writes on a chalkboard" typeof="foaf:Image" />
 
 
 
@@ -150,7 +150,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Projects">Projects</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-04/Ghana_Day1_201-web.jpg?itok=26dKzJgl" alt="A pastor and child in a church" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu6.jpg" alt="A pastor and child in a church" typeof="foaf:Image" />
 
 
 
@@ -159,7 +159,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/CaseStudies" data-drupal-link-system-path="group/646">Case Studies</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-04/D485-0571-61_481434-web.jpg?itok=0qx4rP7w" alt="A Healthy Baby" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu7.jpg" alt="A Healthy Baby" typeof="foaf:Image" />
 
 
 
@@ -168,7 +168,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Team" data-drupal-link-system-path="group/576">Our Team</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-04/Colombia_Day3_261-header.jpg?itok=EyqXpgDW" alt="A Colombian boy has clean water" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu8.jpg" alt="A Colombian boy has clean water" typeof="foaf:Image" />
 
 
 
@@ -200,7 +200,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GHLC/Apply" class="africa" data-drupal-link-system-path="node/72761">Apply</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--africa_11.jpg?itok=XgffMtyH" alt="An African woman holds her child" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu9.jpg" alt="An African woman holds her child" typeof="foaf:Image" />
 
 
 
@@ -209,7 +209,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GHLC/Locations" class="amer-carib" data-drupal-link-system-path="node/72766">Locations</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--americas-and-caribbean_11.jpg?itok=b8USpYSR" alt="A boy in Mexico smiles while sitting in a hammock" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu10.jpg" alt="A boy in Mexico smiles while sitting in a hammock" typeof="foaf:Image" />
 
 
 
@@ -218,7 +218,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GHLC/Speakers" class="asia-pacific" data-drupal-link-system-path="node/72771">Speakers</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-04/2015-Philippines-Final-%2889-of-133%29.jpg?itok=8E4TN_5A" alt="A group of children jump into the ocean in the Philippines" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu11.jpg" alt="A group of children jump into the ocean in the Philippines" typeof="foaf:Image" />
 
 
 
@@ -227,7 +227,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GHLC/Schedule" class="europe" data-drupal-link-system-path="node/72806">Schedule</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--europe_11.jpg?itok=ir6vNxgk" alt="A girl makes a heart shape with her hands" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu12.jpg" alt="A girl makes a heart shape with her hands" typeof="foaf:Image" />
 
 
 
@@ -236,7 +236,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GHLC/FAQS" class="middle-east" data-drupal-link-system-path="node/72796">FAQS</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-04/WV262015.jpg?itok=B2_soTjg" alt="A boy holds a blanket in Eastern Europe" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu13.jpg" alt="A boy holds a blanket in Eastern Europe" typeof="foaf:Image" />
 
 
 
@@ -268,7 +268,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GetInvolved/College" class="stories" data-drupal-link-system-path="stories">College & Graduate Students</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--stories_11.jpg?itok=wsXjT-QE" alt="A Peru woman stands in her home" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu14.jpg" alt="A Peru woman stands in her home" typeof="foaf:Image" />
 
 
 
@@ -277,7 +277,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GetInvolved/Highschool" class="newsroom" data-drupal-link-system-path="newsroom">High School Students</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--newsroom_11.jpg?itok=KS0OfNt_" alt="A man reads the newspaper" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu15.jpg" alt="A man reads the newspaper" typeof="foaf:Image" />
 
 
 
@@ -286,7 +286,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GetInvolved/Middleschool" class="publications" data-drupal-link-system-path="publications">Middle School Students</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--publications_11.jpg?itok=0HKOwhe3" alt="A Chinese boy at school" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu16.jpg" alt="A Chinese boy at school" typeof="foaf:Image" />
 
 
 
@@ -295,7 +295,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//GetInvolved/Professionals" class="thought-leader" data-drupal-link-system-path="node/72831">Professionals</a>
-                        <img src="https://visionghs.github.io//styles/medium_square/public/2019-02/menu--thought-leadership_11.jpg?itok=aXMez7on" alt="A man walks through a field" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu17.jpg" alt="A man walks through a field" typeof="foaf:Image" />
 
 
 
@@ -410,7 +410,7 @@
             Each year we mentor students to
           </div>
                           <div class="hero__title">
-            create community interventions, learn to read and write a report, and become civically minded leaders!
+            Create Community Interventions, Learn to Research an Issue and Write a Report, and Become Civically Minded Leaders!
           </div>
                                   <a href="/cleanwater" class="btn btn--lg btn--primary--orange">Learn More</a>
               </div>
@@ -445,7 +445,7 @@
       <div class="claim__subtitle">
   Students Mentored
   </div>
-      <a href="/child-sponsorship" class="btn btn--secondary--blue">learn more</a>
+      <a href="https://visionghs.github.io//About/Mentoring" class="btn btn--secondary--blue">learn more</a>
   </div>
         <div class="eck-entity component-claim">
     <div class="claim__title">
@@ -455,7 +455,7 @@
       <div class="claim__subtitle">
   Years of Holding Conferences
   </div>
-      <a href="/cleanwater" class="btn btn--secondary--blue">learn more</a>
+      <a href="https://visionghs.github.io//About/Conference" class="btn btn--secondary--blue">learn more</a>
   </div>
         <div class="eck-entity component-claim">
     <div class="claim__title">
@@ -465,7 +465,7 @@
       <div class="claim__subtitle">
   Community Projects
   </div>
-      <a href="/get-involved/emergencies" class="btn btn--secondary--blue">learn more</a>
+      <a href="https://visionghs.github.io//About/Projects" class="btn btn--secondary--blue">learn more</a>
   </div>
   
     </div>
@@ -517,7 +517,7 @@
       
         </div>
                     <div class="cta__btns">
-          <a href="https://visionghs.github.io//stories/coronavirus-health-crisis/covid-19-and-children-we-can-do" class="cta__btn">Learn More</a>
+          <a href="https://visionghs.github.io//GHLC" class="cta__btn">Learn More</a>
         </div>
           </div>
   </div>
@@ -526,29 +526,47 @@
         <div class="eck-entity component--container container--icon not-slider">
   <div class="container--inner">
           <h2 class="container__title">Our students impact their communities in various ways</h2>
-              <div class="container__header"><p class="text--emphasis"><a href="/our-work">Project Examples </a></p></div>
+              <div class="container__header"><p class="text--emphasis"><a href="https://visionghs.github.io//About/Projects">Project Examples </a></p></div>
         <div class="container__components ">
             <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/child-protection">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/IsabellaCarlo">
       <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Child protection icon" typeof="foaf:Image" />
 
 </div>
-    <div class="icon__subtitle">Child Protection</div>
+    <div class="icon__subtitle">Physical Health</div>
     </a>
   </div>
 
         <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/disaster-management">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/TaikiYamamoto">
       <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Disaster Management Icon" typeof="foaf:Image" />
 
 </div>
-    <div class="icon__subtitle">Disaster Management</div>
+    <div class="icon__subtitle">Mental Health</div>
     </a>
   </div>
 
         <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/education">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/GabriellaSpina">
       <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Education icon" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Women's Health</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Health Icon" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Social Health</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Faith and Development icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Education</div>
@@ -556,25 +574,7 @@
   </div>
 
         <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/health">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Health Icon" typeof="foaf:Image" />
-
-</div>
-    <div class="icon__subtitle">Health</div>
-    </a>
-  </div>
-
-        <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/faith-and-development">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Faith and Development icon" typeof="foaf:Image" />
-
-</div>
-    <div class="icon__subtitle">Faith &amp; Development</div>
-    </a>
-  </div>
-
-        <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/nutrition">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/nutrition">
       <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Nutrition Icon" typeof="foaf:Image" />
 
 </div>
@@ -583,26 +583,26 @@
   </div>
 
         <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/economic-development">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
       <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Economic Development Icon" typeof="foaf:Image" />
 
 </div>
-    <div class="icon__subtitle">Economic Development</div>
+    <div class="icon__subtitle">Medical</div>
     </a>
   </div>
 
         <div  class="eck-entity component-icon">
-    <a class="icon__wrapper" href="/cleanwater">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
       <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Water Icon" typeof="foaf:Image" />
 
 </div>
-    <div class="icon__subtitle">Water</div>
+    <div class="icon__subtitle">Caregiving</div>
     </a>
   </div>
 
   
     </div>
-          <div class="container__footer"><p><a class="btn--primary--orange" href="/all-sectors">SEE ALL</a></p></div>
+          <div class="container__footer"><p><a class="btn--primary--orange" href="https://visionghs.github.io//About/Projects/all">SEE ALL</a></p></div>
         
   </div>
 </div>
@@ -630,7 +630,7 @@
   <div class="container--inner">
             <div class="container__slider">
             <div  class="eck-entity component-card">
-    <a href="/about-us/our-vision-and-values">
+    <a href="https://visionghs.github.io//About/GHLC">
       <div class="card__image"><div>
   
   
@@ -661,7 +661,7 @@
   </div>
 
         <div  class="eck-entity component-card">
-    <a href="/our-history">
+    <a href="https://www.the-iyrc.org/">
       <div class="card__image"><div>
   
   
@@ -689,7 +689,7 @@
   </div>
 
         <div  class="eck-entity component-card">
-    <a href="/1000-girls">
+    <a href="https://visionghs.github.io//About/Reach">
       <div class="card__image"><div>
   
   
@@ -707,14 +707,14 @@
       Transformative experiences
       </div>
                   <div class="card__title">
-      Help Empower Students Around the World
+      Work with Students Around the World
       </div>
                   <div class="card__description">
       
             <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>Each year, we encourage students to step outside their comfort zone to grow as civically minded leaders</p></div>
       
       </div>
-                  <span class="card__btn">Have Fun</span>
+                  <span class="card__btn">Learn More</span>
           </div>
     </a>
   </div>
@@ -751,7 +751,7 @@
       
         </div>
                     <div class="cta__btns">
-          <a href="/ittakesaworld" class="cta__btn">Learn More</a>
+          <a href="https://visionghs.github.io//Fellow" class="cta__btn">Learn More</a>
         </div>
           </div>
   </div>
@@ -775,7 +775,7 @@
 
         </h3>
                                 <div class="cta__btns">
-          <a href="/our-impact" class="cta__btn">Learn More </a>
+          <a href="https://visionghs.github.io//About/Team" class="cta__btn">Learn More </a>
         </div>
           </div>
   </div>
