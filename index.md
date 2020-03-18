@@ -97,7 +97,7 @@
 <ul class="menu menu-level-0">
   
   <li class="menu-item menu-item--expanded menu-item--our-work">
-    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="our-work" data-drupal-link-system-path="node/72681">About Us!</a></div>
+    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="our-work" data-drupal-link-system-path="node/72681">About Us</a></div>
               
     
   <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
@@ -505,8 +505,8 @@
   <div class="cta__content">
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
-              <h3 class="cta__title">
-        <p>Global Health and Leadership Conference:</p>
+            <!--  <h3 class="cta__title"> -->
+        <p><strong>Global Health and Leadership Conference:</strong></p>
 
         </h3>
                     <div class="cta__subtitle">
@@ -610,7 +610,7 @@
 
         <div class="eck-entity component--media background-color-white accent-color-orange single-item">
     
-            <div class="field field--name-field-component-heading field--type-text-long field--label-hidden"><p><strong>Meet Katrina</strong></p>
+            <div class="field field--name-field-component-heading field--type-text-long field--label-hidden"><p><strong>Meet Our Team</strong></p>
 
 <p>Katrina was a Vision Volunteer in high school and attended our 2017 & 2018 conferences. She is entering her junior year at Harvard for the 2020-2021 school year and is a leader of Vision and the Global Health and Leadership Conference at Harvard College.</p></div>
       
