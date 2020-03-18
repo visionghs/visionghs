@@ -31,7 +31,7 @@
         <a href="#main-content" class="visually-hidden focusable">
       Skip to main content
     </a>
-    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCWLCJ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <!-- <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCWLCJ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
     
   <div class="region region-alert">
@@ -476,7 +476,7 @@
 
         
   <div class="eck-entity component--view component--view--locations">
-          <div class="view__content"><h2>3 sites</h2></div>
+          <div class="view__header"><h2>3 sites</h2></div>
         <div class="view__content">
    
   
@@ -504,7 +504,7 @@
   <div class="cta__content">
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
-              <h3>
+              <h3 class="cta__title">
         <p>Global Health and Leadership Conference:</p>
 
         </h3>
@@ -525,7 +525,7 @@
 
         <div class="eck-entity component--container container--icon not-slider">
   <div class="container--inner">
-          <h2>Our students impact their communities in various ways</h2>
+          <h2 class="container__title">Our students impact their communities in various ways</h2>
               <div class="container__header"><p class="text--emphasis"><a href="https://visionghs.github.io//About/Projects">Project Examples </a></p></div>
         <div class="container__components ">
             <div  class="eck-entity component-icon">
