@@ -477,7 +477,7 @@
 
         
   <div class="eck-entity component--view component--view--locations">
-          <div class="view__header"><h2>3 sites</h2></div>
+          <div class="view__header"><h4>3 sites</h4></div>
         <div class="view__content">
    
   
@@ -505,8 +505,8 @@
   <div class="cta__content">
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
-            <!--  <h3 class="cta__title"> -->
-        <p><strong>Global Health and Leadership Conference:</strong></p>
+              <h3 class="cta__title">
+        <p>Global Health and Leadership Conference:</p>
 
         </h3>
                     <div class="cta__subtitle">
