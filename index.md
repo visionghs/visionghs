@@ -505,10 +505,10 @@
   <div class="cta__content">
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
-              <h3 class="cta__title">
+             <div class="hero__title">
         <p>Global Health and Leadership Conference:</p>
 
-        </h3>
+        </div>
                     <div class="cta__subtitle">
         Join a Tranformative Experience
         </div>
@@ -526,7 +526,7 @@
 
         <div class="eck-entity component--container container--icon not-slider">
   <div class="container--inner">
-          <h2 class="container__title">Our students impact their communities in various ways</h2>
+          <div class="hero__title">Our students impact their communities in various ways</div>
               <div class="container__header"><p class="text--emphasis"><a href="https://visionghs.github.io//About/Projects">Project Examples </a></p></div>
         <div class="container__components ">
             <div  class="eck-entity component-icon">
@@ -771,10 +771,10 @@
   <div class="cta__content">
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
-              <h3 class="cta__title">
+             <div class="hero__title">
         <p>Meet our team!</p>
 
-        </h3>
+        </div>
                                 <div class="cta__btns">
           <a href="https://visionghs.github.io//About/Team" class="cta__btn">Learn More </a>
         </div>
