@@ -848,11 +848,8 @@
         <a href="https://visionghs.github.io//GHLC/Speakers" data-drupal-link-system-path="node/72726">Speakers</a>
               </li>
                 <li class="menu-item--global-campaign">
-        <a href="https://visionghs.github.io//GHLC/Schedule" data-drupal-link-system-path="group/1">Schedule</a>
-              </li>
-                <li class="menu-item--work-in-fragile-places">
-        <a href="https://visionghs.github.io//GHLC/FAQS"></a> FAQS
-              </li>
+        <a href="https://visionghs.github.io//GHLC/FAQS" data-drupal-link-system-path="group/1">FAQS</a>
+              </li>    
         </ul>
   
               </li>
@@ -878,19 +875,19 @@
         <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Connect With Us</a>
                                 <ul>
                     <li class="menu-item--facebook">
-        <a href="https://www.facebook.com/HarvardVision/" class="facebook-link" target="_blank">Facebook</a>
+        <a href="https://www.facebook.com/HarvardVision/" class="fa fa-facebook">Facebook</a>
               </li>
                 <li class="menu-item--youtube">
-        <a href="https://www.youtube.com/" class="youtube-link" target="_blank">Youtube</a>
+        <a href="https://www.youtube.com/" class="fa fa-youtube">Youtube</a>
               </li>
                 <li class="menu-item--twitter">
-        <a href="https://twitter.com/Harvard_Vision" class="twitter-link" target="_blank">Twitter</a>
+        <a href="https://twitter.com/Harvard_Vision" class="fa fa-twitter">Twitter</a>
               </li>
                 <li class="menu-item--instagram">
-        <a href="https://www.instagram.com/harvardcollegevision/" class="instagram-link" target="_blank">Instagram</a>
+        <a href="https://www.instagram.com/harvardcollegevision/" class="fa fa-instagram">Instagram</a>
               </li>
                 <li class="menu-item--linkedin">
-        <a href="https://www.linkedin.com/in/paulmatthewlewis/" class="linkedin-link" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/paulmatthewlewis/" class="fa fa-linkedin"></a>LinkedIn</a>
               </li>
                 <li class="menu-item--contact-us">
         <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Contact Us</a>
