@@ -29,9 +29,9 @@
 
   </head>
   <body class="page--front">
-  <!--      <a href="#main-content" class="visually-hidden focusable">
+      <a href="#main-content" class="visually-hidden focusable">
       Skip to main content
-    </a> -->
+    </a> 
    <!-- <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCWLCJ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
     
@@ -96,8 +96,8 @@
               
 <ul class="menu menu-level-0">
   
-  <li class="menu-item menu-item--expanded menu-item--our-work">
-    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="our-work" data-drupal-link-system-path="node/72681">About Us</a></div>
+  <li class="menu-item menu-item--expanded menu-item--about-us-class">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="about-us-class" data-drupal-link-system-path="node/72681">About Us</a></div>
               
     
   <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
@@ -192,7 +192,7 @@
       </li>
   
   <li class="menu-item menu-item--expanded menu-item--global-health-leadership-conference">
-    <div class="menu_link_title"><a href="https://visionghs.github.io//GHLC" class="where-work" data-drupal-link-system-path="node/72811">Conferences</a></div>
+    <div class="menu_link_title"><a href="https://visionghs.github.io//GHLC" class="ghlc-conference-class" data-drupal-link-system-path="node/72811">Conferences</a></div>
               
     
   <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
