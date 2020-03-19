@@ -9,12 +9,12 @@
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<!--<link rel="shortcut icon" href="https://visionghs.github.io//favicon.png" type="image/png" /> -->
+<link rel="shortcut icon" href="https://visionghs.github.io//favicon.png" type="image/png" />
 <link rel="alternate" hreflang="en" href="https://visionghs.github.io//" />
-<!--<link rel="alternate" hreflang="fr" href="https://visionghs.github.io//" />
+<link rel="alternate" hreflang="fr" href="https://visionghs.github.io//" />
 <link rel="alternate" hreflang="es" href="https://visionghs.github.io//" />
-<link rel="revision" href="https://visionghs.github.io//" /> -->
-<!--<script src="https://visionghs.github.io//google_tag/drupal_gtm_container/google_tag.script.js?q71t5h" defer></script> -->
+<link rel="revision" href="https://visionghs.github.io//" />
+<script src="https://visionghs.github.io//google_tag/drupal_gtm_container/google_tag.script.js?q71t5h" defer></script>
 
   
  <title>Vision | Global Health Leadership</title>
@@ -29,9 +29,9 @@
 
   </head>
   <body class="page--front">
-      <a href="#main-content" class="visually-hidden focusable">
+        <a href="#main-content" class="visually-hidden focusable">
       Skip to main content
-    </a> 
+    </a>
    <!-- <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCWLCJ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
     
@@ -96,8 +96,8 @@
               
 <ul class="menu menu-level-0">
   
-  <li class="menu-item menu-item--expanded menu-item--about-us-class">
-    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="about-us-class" data-drupal-link-system-path="node/72681">About Us</a></div>
+  <li class="menu-item menu-item--expanded menu-item--our-work">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="our-work" data-drupal-link-system-path="node/72681">About Us</a></div>
               
     
   <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
@@ -105,8 +105,8 @@
     <ul class="menu menu-level-1">
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//About/Vision" class="vision-values-class">Our Vision & Values</a>
-                        <img src="https://visionghs.github.io//images/menu1.jpg" alt="vision & values" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//About/Vision" class="impact">Our Vision & Values</a>
+                        <img src="https://visionghs.github.io//images/menu1.jpg" alt="A girl smiles in Ghana" typeof="foaf:Image" />
 
 
 
@@ -115,7 +115,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/History" data-drupal-link-system-path="group/641">History</a>
-                        <img src="https://visionghs.github.io//images/menu2.jpg" alt="History" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu2.jpg" alt="A Cambodian girl smiles" typeof="foaf:Image" />
 
 
 
@@ -123,8 +123,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//About/Conference" class="about-conference-class" data-drupal-link-system-path="group/606">Conference</a>
-                        <img src="https://visionghs.github.io//images/menu3.jpg" alt="Conference " typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//About/Conference" class="dis-man" data-drupal-link-system-path="group/606">Conference</a>
+                        <img src="https://visionghs.github.io//images/menu3.jpg" alt="woman standing outside " typeof="foaf:Image" />
 
 
 
@@ -132,8 +132,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//About/Partners" class="about-partners-class" data-drupal-link-system-path="group/651">Partners</a>
-                        <img src="https://visionghs.github.io//images/menu4.jpg" alt="Partners" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//About/Partners" class="econ-dev" data-drupal-link-system-path="group/651">Partners</a>
+                        <img src="https://visionghs.github.io//images/menu4.jpg" alt="Young boy" typeof="foaf:Image" />
 
 
 
@@ -142,7 +142,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Mentoring" data-drupal-link-system-path="group/586">Mentoring</a>
-                        <img src="https://visionghs.github.io//images/menu5.jpg" alt="Mentoring" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu5.jpg" alt="A young girl writes on a chalkboard" typeof="foaf:Image" />
 
 
 
@@ -151,7 +151,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Projects">Projects</a>
-                        <img src="https://visionghs.github.io//images/menu6.jpg" alt="Projects" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu6.jpg" alt="A pastor and child in a church" typeof="foaf:Image" />
 
 
 
@@ -160,7 +160,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/CaseStudies" data-drupal-link-system-path="group/646">Case Studies</a>
-                        <img src="https://visionghs.github.io//images/menu7.jpg" alt="Case Studies" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu7.jpg" alt="A Healthy Baby" typeof="foaf:Image" />
 
 
 
@@ -169,7 +169,7 @@
       
     <li class="menu-item">
       <a href="https://visionghs.github.io//About/Team" data-drupal-link-system-path="group/576">Our Team</a>
-                        <img src="https://visionghs.github.io//images/menu8.jpg" alt="Our Team" typeof="foaf:Image" />
+                        <img src="https://visionghs.github.io//images/menu8.jpg" alt="A Colombian boy has clean water" typeof="foaf:Image" />
 
 
 
@@ -191,8 +191,8 @@
 
       </li>
   
-  <li class="menu-item menu-item--expanded menu-item--global-health-leadership-conference">
-    <div class="menu_link_title"><a href="https://visionghs.github.io//GHLC" class="ghlc-conference-class" data-drupal-link-system-path="node/72811">Conferences</a></div>
+  <li class="menu-item menu-item--expanded menu-item--where-we-work">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//GHLC" class="where-work" data-drupal-link-system-path="node/72811">Conferences</a></div>
               
     
   <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
@@ -200,8 +200,8 @@
     <ul class="menu menu-level-1">
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GHLC/Apply" class="ghlc-apply-class" data-drupal-link-system-path="node/72761">Apply</a>
-                        <img src="https://visionghs.github.io//images/menu9.jpg" alt="Apply" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GHLC/Apply" class="africa" data-drupal-link-system-path="node/72761">Apply</a>
+                        <img src="https://visionghs.github.io//images/menu9.jpg" alt="An African woman holds her child" typeof="foaf:Image" />
 
 
 
@@ -209,8 +209,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GHLC/Locations" class="ghlc-locations-class" data-drupal-link-system-path="node/72766">Locations</a>
-                        <img src="https://visionghs.github.io//images/menu10.jpg" alt="Locations" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GHLC/Locations" class="amer-carib" data-drupal-link-system-path="node/72766">Locations</a>
+                        <img src="https://visionghs.github.io//images/menu10.jpg" alt="A boy in Mexico smiles while sitting in a hammock" typeof="foaf:Image" />
 
 
 
@@ -218,8 +218,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GHLC/Speakers" class="ghlc-speakers-class" data-drupal-link-system-path="node/72771">Speakers</a>
-                        <img src="https://visionghs.github.io//images/menu12.jpg" alt="Speakers" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GHLC/Speakers" class="asia-pacific" data-drupal-link-system-path="node/72771">Speakers</a>
+                        <img src="https://visionghs.github.io//images/menu12.jpg" alt="A group of children jump into the ocean in the Philippines" typeof="foaf:Image" />
 
 
 
@@ -227,8 +227,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GHLC/Schedule" class="ghlc-schedule-class" data-drupal-link-system-path="node/72806">Schedule</a>
-                        <img src="https://visionghs.github.io//images/menu11.jpg" alt="Schedule" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GHLC/Schedule" class="europe" data-drupal-link-system-path="node/72806">Schedule</a>
+                        <img src="https://visionghs.github.io//images/menu11.jpg" alt="A girl makes a heart shape with her hands" typeof="foaf:Image" />
 
 
 
@@ -236,8 +236,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GHLC/FAQS" class="ghlc-faqs-class" data-drupal-link-system-path="node/72796">FAQS</a>
-                        <img src="https://visionghs.github.io//images/menu13.jpg" alt="FAQS" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GHLC/FAQS" class="middle-east" data-drupal-link-system-path="node/72796">FAQS</a>
+                        <img src="https://visionghs.github.io//images/menu13.jpg" alt="A boy holds a blanket in Eastern Europe" typeof="foaf:Image" />
 
 
 
@@ -259,8 +259,8 @@
 
       </li>
   
-  <li class="menu-item menu-item--expanded menu-item--get-involved-class">
-    <div class="menu_link_title"><a href="https://visionghs.github.io//GetInvolved" class="get-involved-class" data-drupal-link-system-path="node/72561">Get Involved</a></div>
+  <li class="menu-item menu-item--expanded menu-item--resources">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//GetInvolved" class="resources" data-drupal-link-system-path="node/72561">Get Involved</a></div>
               
     
   <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
@@ -268,8 +268,8 @@
     <ul class="menu menu-level-1">
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GetInvolved/College" class="get-involved-college-class" data-drupal-link-system-path="get-involved-college-class">College & Graduate Students</a>
-                        <img src="https://visionghs.github.io//images/menu14.jpg" alt="college&grad" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GetInvolved/College" class="stories" data-drupal-link-system-path="stories">College & Graduate Students</a>
+                        <img src="https://visionghs.github.io//images/menu14.jpg" alt="A Peru woman stands in her home" typeof="foaf:Image" />
 
 
 
@@ -277,8 +277,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GetInvolved/Highschool" class="get-involved-highschool-class" data-drupal-link-system-path="get-involved-highschool-class">High School Students</a>
-                        <img src="https://visionghs.github.io//images/menu15.jpg" alt="high school" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GetInvolved/Highschool" class="newsroom" data-drupal-link-system-path="newsroom">High School Students</a>
+                        <img src="https://visionghs.github.io//images/menu15.jpg" alt="A man reads the newspaper" typeof="foaf:Image" />
 
 
 
@@ -286,8 +286,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GetInvolved/Middleschool" class="get-involved-middleschool-class" data-drupal-link-system-path="get-involved-middleschool-class">Middle School Students</a>
-                        <img src="https://visionghs.github.io//images/menu16.jpg" alt="middle school" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GetInvolved/Middleschool" class="publications" data-drupal-link-system-path="publications">Middle School Students</a>
+                        <img src="https://visionghs.github.io//images/menu16.jpg" alt="A Chinese boy at school" typeof="foaf:Image" />
 
 
 
@@ -295,8 +295,8 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GetInvolved/Professionals" class="get-involved-professional-class" data-drupal-link-system-path="node/72831">Postgrad & Professionals</a>
-                        <img src="https://visionghs.github.io//images/menu17.jpg" alt="postgrad & professional" typeof="foaf:Image" />
+      <a href="https://visionghs.github.io//GetInvolved/Professionals" class="thought-leader" data-drupal-link-system-path="node/72831">Postgrad & Professionals</a>
+                        <img src="https://visionghs.github.io//images/menu17.jpg" alt="A man walks through a field" typeof="foaf:Image" />
 
 
 
@@ -325,20 +325,20 @@
                     <li class="menu-item--get-involved menu-item--expandable">
         <a href="/More" class="get-involved" data-drupal-link-system-path="node/72911">More</a>
                                 <ul>
-                    <li class="menu-item--more-conference-class">
-        <a href="https://visionghs.github.io//GHLC/Apply" class="more-conference-class" data-drupal-link-system-path="node/72686">Apply to Conference</a>
+                    <li class="menu-item--sponsor-a-child">
+        <a href="https://visionghs.github.io//GHLC/Apply" class="sponsor" data-drupal-link-system-path="node/72686">Apply to Conference</a>
               </li>
-                <li class="menu-item--more-contact-class">
+                <li class="menu-item--emergency-support">
         <a href="https://visionghs.github.io//Contact" class="emergency">Contact Us</a>
               </li>
                 <li class="menu-item--donate">
         <a href="https://www.paypal.com/paypalme2/HarvardVISION" class="donate" data-drupal-link-system-path="node/72886">Donate</a>
               </li>
-                <li class="menu-item--more-partner-class">
-        <a href="https://visionghs.github.io//About/Partners" class="more-partner-class" data-drupal-link-system-path="node/72891">Partner with Us</a>
+                <li class="menu-item--pray-with-us">
+        <a href="https://visionghs.github.io//About/Partners" class="prayer" data-drupal-link-system-path="node/72891">Partner with Us</a>
               </li>
-                <li class="menu-item--more-getinvolved-class">
-        <a href="https://visionghs.github.io//GetInvolved" class="more-getinvolved-class" data-drupal-link-system-path="group/1">Get Involved</a>
+                <li class="menu-item--campaign-with-us">
+        <a href="https://visionghs.github.io//GetInvolved" class="work-with-us" data-drupal-link-system-path="group/1">Get Involved</a>
               </li>
         </ul>
   
@@ -369,7 +369,7 @@
 
 <main role="main" id="main-content" tabindex="-1" class="body-wrapper">
     <div class="region region-content">
-    <div id="block-visionghs-website-content" class="block block-system block-system-main-block block--visionghs-website-content">
+    <div id="block-visionghs-2018-content" class="block block-system block-system-main-block block--visionghs-2018-content">
   
     
       
@@ -454,7 +454,7 @@
 
   </div>
       <div class="claim__subtitle">
-  Years of Conferences
+  Years of Holding Conferences
   </div>
       <a href="https://visionghs.github.io//About/Conference" class="btn btn--secondary--blue">learn more</a>
   </div>
@@ -484,7 +484,7 @@
   
 
       <header>
-      <span class="legend legend--site-harvard">Harvard College</span><span class="legend legend--site-columbia">Columbia University</span><span class="legend legend--site-johnshopkins">Johns Hopkins University</span>
+      <span class="legend legend--global-center">Harvard College</span><span class="legend legend--field-office">Columbia University</span><span class="legend legend--support-office">Johns Hopkins University</span>
     </header>
   
   
@@ -496,7 +496,7 @@
   <div class="cta__image"><div>
   
   
-            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/Taiki1.jpg" alt="conference" typeof="foaf:Image" />
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/Taiki1.jpg" alt="COVID-19-Masks" typeof="foaf:Image" />
 
 </div>
       
@@ -531,7 +531,7 @@
         <div class="container__components ">
             <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/IsabellaCarlo">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="physical health" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Child protection icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Physical Health</div>
@@ -540,7 +540,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/TaikiYamamoto">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="mental health" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Disaster Management Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Mental Health</div>
@@ -549,7 +549,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/GabriellaSpina">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="women's health" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Education icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Women's Health</div>
@@ -558,7 +558,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="social health" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Health Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Social Health</div>
@@ -567,7 +567,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="education" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Faith and Development icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Education</div>
@@ -576,7 +576,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="nutrition" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Nutrition Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Nutrition</div>
@@ -585,7 +585,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="medical" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Economic Development Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Medical</div>
@@ -594,7 +594,7 @@
 
         <div  class="eck-entity component-icon">
     <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
-      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="caregiving" typeof="foaf:Image" />
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Water Icon" typeof="foaf:Image" />
 
 </div>
     <div class="icon__subtitle">Caregiving</div>
@@ -612,15 +612,13 @@
     
             <div class="field field--name-field-component-heading field--type-text-long field--label-hidden"><p><strong>Meet Our Team</strong></p>
 
-<p>We have a wonderful team of university students leading our mission to create civically minded leaders for the future.</p></div>
-
-<div class="container__footer"><p><a class="btn--primary--orange" href="https://visionghs.github.io//About/Team">SEE ALL</a></p></div>
+<p>Katrina was a Vision Volunteer in high school and attended our 2017 & 2018 conferences. She is entering her junior year at Harvard for the 2020-2021 school year and is a leader of Vision and the Global Health and Leadership Conference at Harvard College.</p></div>
       
       <div class="field field--name-field-component-media field--type-entity-reference field--label-hidden">
               <div><div>
-    <img src="https://visionghs.github.io//images/Katrina.jpg" alt="members of our team" typeof="foaf:Image" />
+    <img src="https://visionghs.github.io//images/Katrina.jpg" alt="Katrina" typeof="foaf:Image" />
   
- <!--           <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden"><iframe src="/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DRR6doOwK2wc&amp;max_width=0&amp;max_height=0&amp;hash=9gLU7b7g0n8rDjG_jELeWcsixSdjf18eg9izOoCQ6KI" frameborder="0" allowtransparency width="480" height="270" class="media-oembed-content" title="The impact of Child more-conference-classship - Meet Nancy (60 sec)"></iframe>
+ <!--           <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden"><iframe src="/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DRR6doOwK2wc&amp;max_width=0&amp;max_height=0&amp;hash=9gLU7b7g0n8rDjG_jELeWcsixSdjf18eg9izOoCQ6KI" frameborder="0" allowtransparency width="480" height="270" class="media-oembed-content" title="The Impact of Child Sponsorship - Meet Nancy (60 sec)"></iframe>
 </div> --> 
       
 </div>
@@ -750,7 +748,7 @@
         </div>
                     <div class="cta__description">
         
-            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>Students interested in continuing the work developed in the Global Health and Leadership Conference may apply to be a Vision Global Health Scholar. Selected Scholars work closely with the Vision team to improve on annual programming. They improve the original project design, receive special training in the topic of interest, collect data, discuss findings, and prepare a presentation for the annual Global Health and Leadership Conference hosted at Columbia, Harvard, and Johns Hopkins.</p></div>
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>Students interested in continuing the work developed in the Global Health and Leadership Conference may apply to be a Vision Global Health Scholar. Selected Fellows work closely with the Vision team to improve on annual programming. They improve the original project design, receive special training in the topic of interest, collect data, discuss findings, and prepare a presentation for the annual Global Health and Leadership Conference hosted at Columbia, Harvard, and Johns Hopkins.</p></div>
       
         </div>
                     <div class="cta__btns">
@@ -774,11 +772,11 @@
     <div class="cta__content--inner">
     <div class="cta__icon"></div>
              <div class="hero__title">
-        <p>Donate to Support our Program</p>
+        <p>Meet our team!</p>
 
         </div>
                                 <div class="cta__btns">
-          <a href="https://visionghs.github.io//Donate" class="cta__btn">Learn More </a>
+          <a href="https://visionghs.github.io//About/Team" class="cta__btn">Learn More </a>
         </div>
           </div>
   </div>
@@ -802,7 +800,7 @@
   
     
       
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden"><p><a href="/"><img alt="Vision" data-entity-type="file" data-entity-uuid="3065fa6b-85d7-4b26-848a-5843989552c8" src="https://visionghs.github.io//images/logo--white-rgb_13.png" /></a></p></div>
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden"><p><a href="/"><img alt="World Vision" data-entity-type="file" data-entity-uuid="3065fa6b-85d7-4b26-848a-5843989552c8" src="https://visionghs.github.io//images/logo--white-rgb_13.png" /></a></p></div>
       
   </div>
 <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
@@ -839,37 +837,37 @@
         </ul>
   
               </li>
-                <li class="menu-item--footer-global-health-leadershiop-conference menu-item--expandable">
+                <li class="menu-item--our-approaches-to-change menu-item--expandable">
         <a href="https://visionghs.github.io//GHLC" data-drupal-link-system-path="node/72731">Global Health and Leadership Conference</a>
                                 <ul>
-                    <li class="menu-item--footer-global-health-leadershiop-conference-apply">
+                    <li class="menu-item--our-global-strategy">
         <a href="https://visionghs.github.io//GHLC/Apply" data-drupal-link-system-path="node/72696">Apply</a>
               </li>
-                <li class="menu-item--footer-global-health-leadershiop-conference-speakers">
+                <li class="menu-item--the-role-of-faith">
         <a href="https://visionghs.github.io//GHLC/Speakers" data-drupal-link-system-path="node/72726">Speakers</a>
               </li>
-                <li class="menu-item--footer-global-health-leadershiop-conference-schedule">
+                <li class="menu-item--global-campaign">
         <a href="https://visionghs.github.io//GHLC/Schedule" data-drupal-link-system-path="group/1">Schedule</a>
               </li>
-                <li class="menu-item--footer-global-health-leadershiop-conference-faqs">
+                <li class="menu-item--work-in-fragile-places">
         <a href="https://visionghs.github.io//GHLC/FAQS"></a> FAQS
               </li>
         </ul>
   
               </li>
-                <li class="menu-item--footer-get-involved--footer-join-mission menu-item--expandable">
+                <li class="menu-item--careers--internships menu-item--expandable">
         <a href="https://visionghs.github.io//GetInvolved"> Join Our Mission</a>
                                 <ul>
-                    <li class="menu-item--footer-getinvolved-college">
+                    <li class="menu-item--open-positions">
         <a href="https://visionghs.github.io//GetInvolved/College">College & Graduate Students</a>
               </li>
-                <li class="menu-item--footer-getinvolved-highschool">
+                <li class="menu-item--explore-teams">
         <a href="https://visionghs.github.io//GetInvolved/Highschool">High School Students</a>
               </li>
-                <li class="menu-item--footer-getinvolved-middleschool">
+                <li class="menu-item--explore-locations">
         <a href="https://visionghs.github.io//GetInvolved/Middleschool">Middle School Students</a>
               </li>
-                <li class="menu-item--footer-getinvolved-postgrad">
+                <li class="menu-item--our-culture">
         <a href="https://visionghs.github.io//GetInvolved/Professionals">Postgraduate & Professionals</a>
               </li>
         </ul>
@@ -896,10 +894,10 @@
                 <li class="menu-item--contact-us">
         <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Contact Us</a>
               </li>
-                <li class="menu-item--footer-contact-email">
+                <li class="menu-item--world-vision-in-your-country">
         <a href="mailto:info@harvardcollegevision.org" data-drupal-link-system-path="node/72811">Email</a>
               </li>
-                <li class="menu-item--footer-contact-facebookmessenger">
+                <li class="menu-item--report-a-concern">
         <a href="https://www.messenger.com/t/HarvardVision">Facebook Messenger</a>
               </li>
         </ul>
@@ -911,8 +909,8 @@
 
   </nav>
 
-<!--<div id="block-accountablenowlogo" class="block block-block-content block-block-contentc32d35ab-86e0-4257-b5df-c684ffe90575 block--accountablenowlogo">
-  -->
+<div id="block-accountablenowlogo" class="block block-block-content block-block-contentc32d35ab-86e0-4257-b5df-c684ffe90575 block--accountablenowlogo">
+  
     
       
             <div class="field field--name-body field--type-text-with-summary field--label-hidden"><p> </p>
@@ -940,7 +938,7 @@
 
   </nav>
 
-   <!-- </div> -->
+    </div>
   </div>
 
 <!--</footer> -->
