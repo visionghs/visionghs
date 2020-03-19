@@ -612,11 +612,12 @@
     
             <div class="field field--name-field-component-heading field--type-text-long field--label-hidden"><p><strong>Meet Our Team</strong></p>
 
-<p>We have a wonderful team of university students leading our mission to create civically minded leaders for the future.</p></div>
+<p>We have a wonderful team of university students leading our mission to create civically minded leaders for the future.</p>
+<div class="container__footer"><p><a class="btn--primary--orange" href="https://visionghs.github.io//About/Team">SEE ALL</a></p></div></div>
       
       <div class="field field--name-field-component-media field--type-entity-reference field--label-hidden">
               <div><div>
-    <img src="https://visionghs.github.io//images/Katrina.jpg" alt="our team" typeof="foaf:Image" />
+    <img src="https://visionghs.github.io//images/team1.jpg" alt="our team" typeof="foaf:Image" />
   
  <!--           <div class="field field--name-field-media-oembed-video field--type-string field--label-hidden"><iframe src="/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3DRR6doOwK2wc&amp;max_width=0&amp;max_height=0&amp;hash=9gLU7b7g0n8rDjG_jELeWcsixSdjf18eg9izOoCQ6KI" frameborder="0" allowtransparency width="480" height="270" class="media-oembed-content" title="The Impact of Child Sponsorship - Meet Nancy (60 sec)"></iframe>
 </div> --> 
