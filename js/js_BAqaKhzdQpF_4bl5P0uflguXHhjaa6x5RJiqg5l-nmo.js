@@ -678,7 +678,7 @@ Drupal.debounce = function (func, wait, immediate) {
         var dropDownTrigger = document.querySelector('.region-topnav__menu--main');
         var classes = {
           open: 'js-menu-is-open',
-          our_work: 'our-work-is-open',
+          our_work: 'about-us-class-is-open',
           active: 'js-menu-is-active',
           hover: 'js-menu-hover'
 
@@ -696,9 +696,9 @@ Drupal.debounce = function (func, wait, immediate) {
             }
 
           // The "Where We Work" menu is larger and needs its own class.
-          if (target.classList.contains('our-work') && !dropDown.classList.contains(classes.our_work) && acceptableTags.includes(target.tagName)) {
+          if (target.classList.contains('about-us-class') && !dropDown.classList.contains(classes.our_work) && acceptableTags.includes(target.tagName)) {
             dropDown.classList.add(classes.our_work);
-          } else if (dropDown.classList.contains(classes.our_work) && (target.classList.contains('where-work') || target.classList.contains('get-involved-class'))) {
+          } else if (dropDown.classList.contains(classes.our_work) && (target.classList.contains('ghlc-conference-class') || target.classList.contains('get-involved-class'))) {
             dropDown.classList.remove(classes.our_work);
           }
         };
