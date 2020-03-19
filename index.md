@@ -21,7 +21,7 @@
 <link rel="stylesheet" media="all" href="https://visionghs.github.io//css/styleset1.css">
 <link rel="stylesheet" media="all" href="https://visionghs.github.io//css/styleset2.css">
 <link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:400,700,900" />
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 <!--[if lte IE 8]>
 <script src="https://visionghs.github.io//js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
