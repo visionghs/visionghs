@@ -678,7 +678,7 @@ Drupal.debounce = function (func, wait, immediate) {
         var dropDownTrigger = document.querySelector('.region-topnav__menu--main');
         var classes = {
           open: 'js-menu-is-open',
-          our_work: 'our-work-is-open',
+          our_work: 'about-us-class-is-open',
           active: 'js-menu-is-active',
           hover: 'js-menu-hover'
 
@@ -696,9 +696,9 @@ Drupal.debounce = function (func, wait, immediate) {
             }
 
           // The "Where We Work" menu is larger and needs its own class.
-          if (target.classList.contains('our-work') && !dropDown.classList.contains(classes.our_work) && acceptableTags.includes(target.tagName)) {
+          if (target.classList.contains('about-us-class') && !dropDown.classList.contains(classes.our_work) && acceptableTags.includes(target.tagName)) {
             dropDown.classList.add(classes.our_work);
-          } else if (dropDown.classList.contains(classes.our_work) && (target.classList.contains('where-work') || target.classList.contains('resources'))) {
+          } else if (dropDown.classList.contains(classes.our_work) && (target.classList.contains('ghlc-conference-class') || target.classList.contains('get-involved-class'))) {
             dropDown.classList.remove(classes.our_work);
           }
         };
@@ -972,10 +972,10 @@ Drupal.debounce = function (func, wait, immediate) {
     }
   };
 
-  Drupal.behaviors.visionghsPublications = {
+  Drupal.behaviors.visionghsget-involved-middleschool-class = {
     attach: function attach(context) {
-      var publicationsView = document.getElementsByClassName('view--publications')[0];
-      if (!publicationsView) {
+      var get-involved-middleschool-classView = document.getElementsByClassName('view--get-involved-middleschool-class')[0];
+      if (!get-involved-middleschool-classView) {
         return;
       }
 
@@ -989,7 +989,7 @@ Drupal.debounce = function (func, wait, immediate) {
         if (window.innerWidth < 960) {
           return;
         }
-        var teasers = publicationsView.getElementsByClassName('publication__image');
+        var teasers = get-involved-middleschool-classView.getElementsByClassName('publication__image');
 
         var _loop = function _loop(teaser) {
           teaser.addEventListener('mouseover', function (e) {
@@ -1142,14 +1142,14 @@ Drupal.debounce = function (func, wait, immediate) {
         });
       }
 
-      if ($(".field-office__heroes.js-slider .heroes__container").length) {
-        $(".field-office__heroes.js-slider .heroes__container").slick({
+      if ($(".site-columbia__heroes.js-slider .heroes__container").length) {
+        $(".site-columbia__heroes.js-slider .heroes__container").slick({
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           dots: false
         });
-        video_sliders.push(".field-office__heroes.js-slider .heroes__container");
+        video_sliders.push(".site-columbia__heroes.js-slider .heroes__container");
       }
 
       if ($('.container--icon.js-slider .container__slider').length) {
