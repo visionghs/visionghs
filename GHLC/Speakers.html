@@ -1,0 +1,1834 @@
+ <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"006b5744c1",applicationID:"115598855"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<link rel="shortlink" href="https://visionghs.github.io//" />
+<link rel="canonical" href="https://visionghs.github.io//" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://visionghs.github.io//favicon.png" type="image/png" />
+<link rel="alternate" hreflang="en" href="https://visionghs.github.io//" />
+<link rel="alternate" hreflang="fr" href="https://visionghs.github.io//" />
+<link rel="alternate" hreflang="es" href="https://visionghs.github.io//" />
+<link rel="revision" href="https://visionghs.github.io//" />
+<script src="https://visionghs.github.io//google_tag/drupal_gtm_container/google_tag.script.js?q71t5h" defer></script>
+
+  
+ <title>Vision | Global Health Leadership</title>
+<link rel="stylesheet" media="all" href="https://visionghs.github.io//css/styleset1.css">
+<link rel="stylesheet" media="all" href="https://visionghs.github.io//css/styleset2.css">
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:400,700,900" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+  </head>
+  <body class="page--front">
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  <div class="region region-alert">
+    <div class="views-element-container block block-views block-views-blockalert-block-1 block--views-block-alert-block-1" id="block-views-block-alert-block-1">
+  
+    
+      <div><div class="js-view-dom-id-a74d360a73b24ddb8b44f269cc58bc6e49deffe4b98bb6b82ea64fc72a19d140 views-view--alert views-view--alert--">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+
+<input  type="checkbox" checked="checked" id="visionghs-alert-1-26-toggle" class="visionghs-alert--toggle hidden">
+<label  class="visionghs-alert" id="visionghs-alert-1-26" for="visionghs-alert-1-26-toggle">
+  <span class="content">
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" class="field--name-message">The 2020 conference is virtual. Check CDC for COVID-19 info</a>
+        <div class="close">✕</div>
+  </span>
+</label>
+</div>
+
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+
+  <div class="region region-topnav">
+    <div class="container">
+      <div id="block-sitebranding" class="block block-system block-system-branding-block block--sitebranding">
+  
+    
+              <a class="topnav__logo" href="/" title="Home" rel="home">
+        <img src="https://visionghs.github.io//images/logo.png" alt="Home"/>
+      </a>
+          
+</div>
+      <div class="show-menu" aria-label="Show Menu" aria-controls="menu-level-0"></div>
+  <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main region-topnav__menu--main">
+                      
+    <h2 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+    
+
+              
+<ul class="menu menu-level-0">
+  
+  <li class="menu-item menu-item--expanded menu-item--our-work">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="our-work" data-drupal-link-system-path="node/72681">About Us</a></div>
+              
+    
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+    <ul class="menu menu-level-1">
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Vision" class="impact">Our Vision & Values</a>
+                        <img src="https://visionghs.github.io//images/menu1.jpg" alt="vision and values" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/History" data-drupal-link-system-path="group/641">History</a>
+                        <img src="https://visionghs.github.io//images/menu2.jpg" alt="history" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Conference" class="dis-man" data-drupal-link-system-path="group/606">Conference</a>
+                        <img src="https://visionghs.github.io//images/menu3.jpg" alt="conference " typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Partners" class="econ-dev" data-drupal-link-system-path="group/651">Partners</a>
+                        <img src="https://visionghs.github.io//images/menu4.jpg" alt="partners" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Mentoring" data-drupal-link-system-path="group/586">Mentoring</a>
+                        <img src="https://visionghs.github.io//images/menu5.jpg" alt="mentoring" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Projects">Projects</a>
+                        <img src="https://visionghs.github.io//images/menu6.jpg" alt="projects" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/CaseStudies" data-drupal-link-system-path="group/646">Case Studies</a>
+                        <img src="https://visionghs.github.io//images/menu7.jpg" alt="case studies" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Team" data-drupal-link-system-path="group/576">Our Team</a>
+                        <img src="https://visionghs.github.io//images/menu8.jpg" alt="our team" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About" class="show-more">View All</a>
+                      
+
+          </li>
+    </ul>
+
+
+
+      </div>
+
+
+
+      </li>
+  
+  <li class="menu-item menu-item--expanded menu-item--where-we-work">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//GHLC" class="where-work" data-drupal-link-system-path="node/72811">Conferences</a></div>
+              
+    
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+    <ul class="menu menu-level-1">
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Apply" class="africa" data-drupal-link-system-path="node/72761">Apply</a>
+                        <img src="https://visionghs.github.io//images/menu9.jpg" alt="apply" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Locations" class="amer-carib" data-drupal-link-system-path="node/72766">Locations</a>
+                        <img src="https://visionghs.github.io//images/menu10.jpg" alt="locations" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Speakers" class="asia-pacific" data-drupal-link-system-path="node/72771">Speakers</a>
+                        <img src="https://visionghs.github.io//images/menu12.jpg" alt="speakers" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Schedule" class="europe" data-drupal-link-system-path="node/72806">Schedule</a>
+                        <img src="https://visionghs.github.io//images/menu11.jpg" alt="schedule" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/FAQS" class="middle-east" data-drupal-link-system-path="node/72796">FAQS</a>
+                        <img src="https://visionghs.github.io//images/menu13.jpg" alt="faqs" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC" class="show-more" data-drupal-link-system-path="node/72811">See All</a>
+                      
+
+          </li>
+    </ul>
+
+
+
+      </div>
+
+
+
+      </li>
+  
+  <li class="menu-item menu-item--expanded menu-item--resources">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//GetInvolved" class="resources" data-drupal-link-system-path="node/72561">Get Involved</a></div>
+              
+    
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+    <ul class="menu menu-level-1">
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/College" class="stories" data-drupal-link-system-path="stories">College & Graduate Students</a>
+                        <img src="https://visionghs.github.io//images/menu14.jpg" alt="college & grad students" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/Highschool" class="newsroom" data-drupal-link-system-path="newsroom">High School Students</a>
+                        <img src="https://visionghs.github.io//images/menu15.jpg" alt="high school students" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/Middleschool" class="publications" data-drupal-link-system-path="publications">Middle School Students</a>
+                        <img src="https://visionghs.github.io//images/menu16.jpg" alt="middle school students" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/Professionals" class="thought-leader" data-drupal-link-system-path="node/72831">Postgrad & Professionals</a>
+                        <img src="https://visionghs.github.io//images/menu17.jpg" alt="postgrad & professionals" typeof="foaf:Image" />
+
+
+
+
+          </li>
+    </ul>
+
+
+
+      </div>
+
+
+
+      </li>
+</ul>
+
+      </nav>
+  <div id="overlay--dropdown" class="overlay--dropdown"></div>
+<nav role="navigation" aria-labelledby="block-getinvolved-menu" id="block-getinvolved" class="block block-menu navigation menu--get-involved">
+            
+  <h2 class="visually-hidden" id="block-getinvolved-menu">More</h2>
+  
+
+        
+              <ul data-region="topnav">
+                    <li class="menu-item--get-involved menu-item--expandable">
+        <a href="/More" class="get-involved" data-drupal-link-system-path="node/72911">More</a>
+                                <ul>
+                    <li class="menu-item--sponsor-a-child">
+        <a href="https://visionghs.github.io//GHLC/Apply" class="sponsor" data-drupal-link-system-path="node/72686">Apply to Conference</a>
+              </li>
+                <li class="menu-item--emergency-support">
+        <a href="https://visionghs.github.io//Contact" class="emergency">Contact Us</a>
+              </li>
+                <li class="menu-item--donate">
+        <a href="https://www.paypal.com/paypalme2/HarvardVISION" class="donate" data-drupal-link-system-path="node/72886">Donate</a>
+              </li>
+                <li class="menu-item--pray-with-us">
+        <a href="https://visionghs.github.io//GetInvolved" class="prayer" data-drupal-link-system-path="node/72891">Get Involved</a>
+              </li>
+                <li class="menu-item--campaign-with-us">
+        <a href="https://visionghs.github.io//Directory" class="work-with-us" data-drupal-link-system-path="group/1">Site Directory</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+    </div>
+  </div>
+
+
+  <div class="region region-preheader">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+<header>
+    <div class="region region-header">
+    
+  </div>
+
+    
+</header>
+
+<main role="main" id="main-content" tabindex="-1" class="body-wrapper">
+    <div class="region region-content">
+    <div id="block-visionghs-2018-content" class="block block-system block-system-main-block block--visionghs-2018-content">
+  
+    
+      
+<article role="article" about="/homepage" class="node--landing-page page--homepage">
+
+  <div class="hero-overlap">
+          <div class="eck-entity component--container container--hero not-slider">
+    <div class="container__components__hero">
+    <div class="views-element-container"><div class="js-view-dom-id-6ae94b31c29563a793f42999a5e345204f59b97a9b30aef8902e65d8f52dec18 views-view--random-hero views-view--random-hero--">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+  <div class="eck-entity hero--default component-hero image-align-bottom text-align-right text-color-white">
+    <div class="hero__background">
+      <div>
+  
+  
+            <div class="field field--name-thumbnail field--type-image field--label-hidden">    <picture>
+  
+            <img src="https://visionghs.github.io//images/winner.jpg" alt="conference" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+
+    </div>
+    <div class="hero__content">
+      <div class="hero__content--inner">
+                  <div class="hero__title">
+            Global Health & Leadership Conference 
+          </div>
+                          <div class="hero__subtitle">
+            Create Community Interventions, Learn to Research an Issue, Write a Report, and Become Civically Minded Leaders!
+          </div>
+                                  <a href="https://visionghs.github.io//GHLC/Apply" class="btn btn--lg btn--primary--orange">Apply</a>
+              </div>
+    </div>
+  </div>
+
+</div>
+
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+  </div>
+
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.headerimage {
+  overflow: hidden;
+  background-color: #c61236;
+}
+
+.navbar a.class2 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a.class2:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a.class2 {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a.class2:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+
+        <div class="eck-entity component--container container--claim not-slider">
+  <div class="container--inner">
+            <div class="container__components ">
+            
+			    <!-- beginning of content about conference from old site !-->   
+<!--<div class="width"style="background-color:#ffffff"  padding-top= 25px;
+  padding-right= 20px;
+  padding-bottom= 25px;
+  padding-left= 20px;>
+<div id="os_content" style="background-color:#ffffff"  padding-top= 25px;
+  padding-right= 10px;
+  padding-bottom= 25px;
+  padding-left= 10px;><section class="home-section" id="home-welcome">
+  
+
+<style> 
+.boxforbackground{
+
+  background-color: #ffffff;
+  padding: 70px;
+background-clip: border-box;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+</style>
+
+<div class="boxforbackground"> 
+<!-- home page beginning !-->
+
+
+<style>
+.open-sans-font {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+.roboto-font {
+	font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    }
+    
+.roboto-font-center {
+	font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    }    
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<!--<div class="container"><img alt="conference2020" src="http://os_extranet_images.s3.amazonaws.com/467252_original.png" class="center" style="float: center; " width="600"></div>
+-->
+<h1><span style="color:#c62346;"><div class='roboto-font-center'> <span style="font-size:48px;">Harvard College</span></div></span></h1>
+
+<div class='roboto-font-center'><h1><span style="color:#c62346; font-size:29px;">Global Health and Leadership Conference</span></h1></div>
+
+<div class='open-sans-font'>Founded in 2017 by Harvard alumnus Paul Lewis, the Global Health and Leadership Conference at Harvard promotes student engagement with global health topics by bringing together Harvard faculty, students, and guests to educate and mentor high school students. The conference encourages students to tackle issues in their local community by conducting evidence-based, cost-effective interventions that are impactful, sustainable, and reproducible initiatives. The conference hopes to help students make a difference and grow as civically minded leaders for the future.</div>
+
+<!-- Buttons !-->
+<style> .box {
+            display: flex;
+                   }
+a {
+  color: white;
+  text-decoration: none;
+}
+</style>
+
+<!-- blue button !-->
+
+<style type="text/css">.btn1 {
+  border: none;
+  background-color: #0e7cbe;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px 4px;
+}
+
+.btn1:hover {background: #aaaaaa;}
+
+.brochure {color: #ffffff;}
+</style>
+
+<!-- red button !-->
+
+<style type="text/css">.btn4 {
+  border: none;
+  background-color: #c62346;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px 4px;
+}
+
+.btn2 {
+  border: none;
+  background-color: #1b90b7;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px 4px;
+}
+.btn:hover {background: #aaaaaa;}
+
+.brochure {color: #ffffff;}
+</style>
+<div class='open-sans-font'><strong>Want to learn more?   </strong> <a class="btn1" href="https://drive.google.com/file/d/1unz5KjF5Jpz6WJ84EsfnPtAzmEgsKRO4/view?usp=sharing">Get a Brochure</a><a class="btn4" href="https://forms.gle/Qsq5omzD1wJGGavo9" target="_blank">Apply Now</a><a class="btn2" href="mailto:info@harvardcollegevision.org">Contact Us</a></div>
+<p><br></p>
+
+
+
+          
+          
+          
+          
+          
+    <!-- home page edit beginning do not copy this line !-->   
+<div class="width"style="background-color:#ffffff"  padding-top= 25px;
+  padding-right= 20px;
+  padding-bottom= 25px;
+  padding-left= 20px;>
+<div id="os_content" style="background-color:#ffffff"  padding-top= 25px;
+  padding-right= 10px;
+  padding-bottom= 25px;
+  padding-left= 10px;><section class="home-section" id="home-welcome">
+  
+
+<style> 
+.boxforbackground{
+
+  background-color: #ffffff;
+  padding: 70px;
+background-clip: border-box;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+</style>
+
+<div class="boxforbackground"> 
+<!-- home page beginning !-->
+
+<!-- home page beginning !-->
+
+
+<style>
+.open-sans-font {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+.roboto-font {
+	font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    }
+    
+.roboto-font-center {
+	font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    }    
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<div class="container"><h1><span style="color:#c62346;"><div class='roboto-font-center'> <span style="font-size:48px;">Conference Speakers</span></div></span></h1><img alt="conference2020" src="https://harvardvision.github.io//images/speakers.png" class="center" style="float: center; " width="800"></div>
+
+<div class='roboto-font-center'><h1><span style="color:#c62346; font-size:29px;">Global Health and Leadership Conference</span></h1></div>
+
+
+<div class='open-sans-font'><h3>The Global Health and Leadership Conference features prominent leaders in global. Students have the opportunity to hear from physicians, professors, CEOs, and more throughout the weekend. The conference features speakers from diverse fields and locations such as Japan and the United Kingdom. </h3></div>
+
+<!-- Buttons !-->
+<style> .box {
+            display: flex;
+                   }
+a {
+  color: white;
+  text-decoration: none;
+}
+</style>
+
+<!-- blue button !-->
+
+<style type="text/css">.btn1 {
+  border: none;
+  background-color: #0e7cbe;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px 4px;
+}
+
+.btn1:hover {background: #aaaaaa;}
+
+.brochure {color: #ffffff;}
+</style>
+
+<!-- red button !-->
+
+<style type="text/css">.btn {
+  border: none;
+  background-color: #c62346;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px 4px;
+}
+
+.btn2 {
+  border: none;
+  background-color: #1b90b7;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px 4px;
+}
+.btn:hover {background: #aaaaaa;}
+
+.brochure {color: #ffffff;}
+</style>
+<div class='open-sans-font'><h1><strong>See bios of past speakers below </strong> <a class="btn1" href="https://drive.google.com/file/d/1u0eEeEKIzL9zxsQ1Jsi0pAZwk1rcu1Xa/view?usp=sharing">Get a Brochure</a><a class="btn" href="https://forms.gle/nxrrZVY6RCm75Qvh9" target="_blank">Apply Now</a><a class="btn2" href="mailto:info@harvardcollegevision.org">Contact Us</a></h1></div>
+
+
+
+
+<br>
+<div class="open-sans-font">
+
+<h3><span style="color:#0e7cbe;">Hala Aldosari</span></h3>
+Hala Aldosari is a scholar of social determinants of health and gender-based violence research. She examines the influence of gender norms on women’s political, economic, legal, and health statuses in the Arab Gulf states. At Radcliffe, Aldosari is researching gender dynamics, a significant determinant of health in Saudi Arabia. She employs interdisciplinary frameworks to study the impact of behavioral factors, cultural beliefs, social networks, socioeconomic status, and legislations as determinants of women’s health. In particular, Aldosari examines the impact of “constrained choice” on women’s access to care, quality of care, and health outcomes in Saudi Arabia
+<br>
+<h3><span style="color:#0e7cbe;">Dr. Anne E. Becker</span></h3>
+Dr. Anne E. Becker, MD, PhD, SM is the Maude and Lillian Presley Professor of Global Health and Social Medicine at Harvard Medical School. An anthropologist and psychiatrist, Dr. Becker has been lead investigator on a series of studies demonstrating the relationship between media exposure and eating pathology in the small-scale indigenous iTaukei population of Fiji. Her NIMH-funded research has also investigated the impact of rapid social transition on eating pathology, suicide, and other youth health risk behaviors in Fiji. She is co-PI for a school-based youth mental health intervention in central Haiti and co-PI for another study of a school-based mental health intervention in Beirut. Dr. Becker served as vice chair of the Department of Global Health and Social Medicine, is past director of the HMS MD-PhD Social Sciences program, and is former co editor-in-chief of Culture, Medicine and Psychiatry. Dr. Becker is founding and past Director of the Eating Disorders Clinical and Research Program at MGH, former associate editor of the International Journal of Eating Disorders, and past president of the Academy for Eating Disorders.
+
+<br>
+
+<h3><span style="color:#0e7cbe;">Brittany Cesarini</span></h3>
+Brittany Cesarini is a social justice advocate passionate about diversifying global health leadership and building community. In her current role on the Advocacy and Communications team at Global Health Corps (GHC), Brittany works closely with GHC's young leaders around the world to develop and hone their ability to inspire and mobilize others to effect change. She serves as Editor-in-Chief of AMPLIFY and works on a range of media, public engagement, digital, and advocacy initiatives towards this aim. Fluent in Swahili, Brittany has conducted research and worked in the fields of gender-based violence prevention and HIV/AIDS education in Tanzania. As a recipient of the Henry Richardson Labouisse ’26 Prize, Brittany launched the Shikamana initiative in Dar es Salaam, working to train Tanzanian activists to educate youth on public health topics including conflict resolution, family planning, and disease prevention. She was also a Princeton Project 55 fellow and led communications for New York City Council Member Fernando Cabrera. Brittany holds a Bachelor of Arts degree from Princeton University's Woodrow Wilson School of Public Policy and certificates in Gender and Sexuality Studies and African Studies. Proposed topic: Impactful Global Health Leadership: Start With the (Wo)man in the Mirror The concept of changing the world can be both motivating and overwhelming. Where do we begin? What exciting adventures await? How will we overcome challenges along the way? The road to creating lasting change - especially in the complex field of global health - is long and windy, but it starts with effective leadership. In order to develop into effective global health leaders, we have first examine ourselves in the mirror, coming face to face with our perceptions, our passions, our strengths and our weaknesses. Most importantly, we have to understand that the lens through which we see the world is not the only one. Only once we recognize this can we learn from and collaborate with others in a way that amplifies our impact beyond what any of us alone could ever achieve. Brittany will speak about the importance of self-awareness, humility, and empathy in global health leadership, sharing lessons learned from Global Health Corps' experience developing the next generation of health equity leaders. Aspects of our program she will touch on include: our co-fellow model, our work with partners in Africa and in the U.S., and our efforts to include diverse voices and perspectives at the decision-making tables of global health.
+
+<br>
+
+<h3><span style="color:#0e7cbe;">Dr. Roopa Dhatt</span></h3>
+Dr. Roopa Dhatt is a physician by training and an advocate by principle, striving for greater health and well-being for all people through working in global health. She is the Executive Director and co-founder of Women in Global Health (#womeningh), a movement that strives to bring greater gender equality to global health leadership. She also serves as the Initiative Director for the Women Leaders in Global Health Initiative (WLGHI), hosted by Global Health Council, as the Board Member of GlobeMed, and as the Chair of the Consortium of University for Global Health (CUGH) Working Group on Increasing Women’s Leadership in Academic Global Health. She is an Internist, providing primary care in Washington D.C. at Kaiser Permanente. She completed her training at Case Western Reserve University, Department of Internal Medicine in the International Health Track. Formerly, she was the President of the International Federation of Medical Students’ Associations, a student led organization, present in over 120+ countries, where she oversaw world-wide campaigns on global health issues including Sustainable Development Goals (SDGs), Climate Change, Social Determinants of Health, Universal Health Coverage, and Health in All Policies. She is the founder of the Young Voices, Youth: Pre-World Health Assembly (#yWHA) in 2013 with the Global Health Centre, Graduate Institute. She has a B.A. and B.S. from the University of California, Davis; a Master in Public Affairs from Sciences Po, Paris, France; and an M.D. from Temple University School of Medicine.		
+
+<br>
+
+<h3><span style="color:#0e7cbe;">Dr. Senan Ebrahim</span></h3>
+Senan Ebrahim is the founder and CEO of Hikma Health, a tech nonprofit creating open source health data systems for millions of refugees. He also previously worked on health related products at nference, CrowdMed and Daktari Diagnostics. Senan hails from San Jose, CA and studied neuroscience in college and then in his PhD on seizure prediction in epilepsy. He is currently in his final year in the M.D.- Ph.D program at Harvard Medical School. Senan is passionate about sharing the data revolution in medicine with those who can benefit from it most After graduating from Harvard College, he spent a year living in the Peruvian Andes, conducting an ethnography of traditional healers. Senan enjoys playing intramural water polo for Quincy House, eating Brazilian food, and listening to deep house mixes; he aspires to eventually do all three at the same time.  
+
+<br>
+<h3><span style="color:#0e7cbe;">Yvette Efevbera</span></h3>
+Yvette Efevbera received her master of public health from the Harvard T. H. Chan School of Public Health, where she is currently an advanced doctoral candidate focusing on global health, adolescents and youth, and program leadership. Her research uses qualitative and quantitative methods to understand contexts affecting the health and well-being of children, adolescents, youth, and women, particularly in sub-Saharan Africa. Yvette previously served as Program Associate for the International Children’s Rights, Protection, and Education Programs at Wellspring Advisors and Monitoring and Evaluation Coordinator for mothers2mothers in Malawi, Southeastern Africa. She also brings 9 years in diversity, inclusion, and culture work in higher-education and non-profit organizations and 6 years of experience in mentoring and advising youth, such as in her role as Resident Tutor at Harvard College. Yvette holds a Bachelor of Arts, High Honor in International Relations and African Studies from Michigan State University. A fun fact: She enjoys musical theatre and recently coordinated and performed in a production with undergraduate students. Proposed Topic: Road to Global Health Yvette will talk about her personal experience growing up in Africa, coming to the United States, and studying HIV.
+
+<br>
+<h3><span style="color:#0e7cbe;">Dr. Bogdan Chiva Giurca</span></h3>
+Bogdan Chiva Giurca is an award-winning, final year medical student at Exeter Medical School in the UK. He has worked as a student advisor for the UK National Healthcare System (NHS), National Medical Director for Primary Care, and Government, as well as establishing a National Student Strategy Group. His work has influenced national healthcare policy and has driven key changes within the Undergraduate medical school curriculum. Throughout medical school, Bogdan has contributed to several peer-reviewed publications, including the UK NHS Long Term Plan (a 10-year roadmap for the future of healthcare), as well as authoring three books, including the most recent 370-pages ‘Unofficial Guide to Getting into Medical School’.Working with a team of 5,000+ medical students internationally, Bogdan is the founder of multiple large-scale projects, including the NHS England Social Prescribing Champion Scheme, International Social Prescribing Day, TalkCancer, and Medefine Education. In August 2019, Bogdan will start working as a newly qualified Doctor in London, South Thames.
+
+<br>
+<h3><span style="color:#0e7cbe;">Dr. Omar Haque</span></h3>
+Dr. Omar Haque is an honors graduate of Harvard Medical School and Brown University, and has over 14 years of caring for patients, with an expertise in treating patients with MDD (Major Depressive Disorder) which has not responded to medication trials. Dr. Haque is the Founder and Medical Director of Dignity Brain Health, a clinic for TMS therapy for depression. He is a member of the Clinical TMS Society, American Medical Association, Massachusetts Medical Society, American Psychiatric Association, American Neuropsychiatric Association, and is Board Certified by the American Board of Psychiatry and Neurology. Drawing on his training in neuroscience as well as the humanities and social sciences, and with his background as a teacher and researcher at Harvard, he takes a holistic approach to patient care, and integrates the most up-to-date and evidence-based treatment plans for patients, whether from biological, psychological, interpersonal, existential, or social science approaches.
+
+<br>
+<h3><span style="color:#0e7cbe;">Dr. Kazumi Hatasa</span></h3>
+Dr. Kazumi Hatasa received his Ph.D. in Education from the University of Illinois at Urbana-Champaign. He started teaching at Purdue University in 1988, and is currently a professor in School of Languages and Cultures. He was Director of the School of Japanese at Middlebury College from 2004 to 2018. His primary area of specialization is computer application of technologies in Japanese language teaching. He has published articles and book chapters in this area both in English and in Japanese, and regularly makes presentations at conferences of professional organizations including AATJ, ACTFL, and CALICO. He is currently working on applications of GPS games in language learning by using ARIS developed by University of Wisconsin Madison. He is co-authoring an advanced level textbook in Japanese using culinary culture as the main theme to be published in 2020.
+
+<br>
+<h3><span style="color:#0e7cbe;">Yuichi Ishii</span></h3>
+Yuichi Ishii is the Founder and CEO of Family Romance, a company in Tokyo, Japan for renting actors to play the role of family members and friends in the client’s daily life. The company’s name comes from Freud’s “The Family Romance of Neurotics,” an essay published in 1909, about children who believe that their parents are impostors, and that their real parents are nobles or royals. According to Freud, this fantasy is a child’s way of coping with the inevitable, painful experience of disillusionment in his or her parents. Ishii and his “cast” actively strategize in order to engineer transformative outcomes for clients acting as a parent for a fatherless child, a spouse for a widow, or a friend for emotional support.
+
+<br>
+<h3><span style="color:#0e7cbe;">Jackie Jenkins-Scott</span></h3>
+Jackie Jenkins-Scott,Founder and President of JJS Advising, is a nationally recognized leader with more than three decades of experience in senior and executive leadership positions in both public and nonprofit sectors. She is the first African-American president of emeritus of Wheelock College, a 129-year old private college specializing in educating teachers and social workers. Under Jackie’s strategic leadership, Wheelock significantly increased its endowment and successfully completed the largest capital campaign in the College’s history.Her personal commitment to improve society extends to active community and civic engagement. She is currently a member of the Boards of Directors of the Tufts Health Plan Foundation, Schott Foundation for Public Education, Center for Community Change, John F. Kennedy Library Foundation, and Century Bank and Trust Company. Jackie raises public awareness about education and other public sector issues on a national (and global) scale by speaking and writing in a variety of media.
+
+<br>
+
+<h3><span style="color:#0e7cbe;">Paul Lewis</span></h3>
+Paul M. Lewis is a TMS Therapy Clinician. He holds a Bachelor of Arts degree from Harvard College where he concentrated in Neurobiology with a secondary in Global Health and Health Policy. He has experience in diverse areas of global and public health having served as the Director of a program for underprivileged Native American youth, the President of a peer education group to promote holistic wellness, and the Community Education Chair of a drug and alcohol education group. Paul is the Founder of Harvard College VISION Global Health Society and the Global Health and Leadership Conference, which aims to educate high school students on global health topics, create evidence-based community interventions, and sustain a bidirectional mentoring pipeline of support for youth. Paul is the recipient of the Robert T. Benjamin Prize for his contribution to the health and wellness of Harvard, The Harvard Phillips Brooks House Association Houston Award for exceptional commitment to serving underprivileged communities, and the Harvard Transcript Project Prize for excellence in writing and reflection. He was awarded the Finley Fellowship from Harvard to spend a postgraduate year in Japan learning about end-of-life care. He aspires to become a physician leader involved in the holistic health of communities by caring for the whole person during treatment, promoting dignity for the marginalized, and acting as a mentor for youth to become conscientious caregivers.
+<br>
+	
+<h3><span style="color:#0e7cbe;">Dani Poole</span></h3>
+Dani Poole is a doctoral candidate in the Department of Global Health and Population at the Harvard University T.H. Chan School of Public Health. Her overall career goal is to leverage data to improve health in humanitarian crises. Dani uses epidemiological and statistical methods to quantify health outcomes and their predictors for intervention design and monitoring and evaluation in crises. Dani works at the Signal Program on Human Security and Technology of the Harvard Humanitarian Initiative on evaluating the use, effectiveness, and inequalities of information communication technologies in crises. She is a current Graduate Research Fellow at the Weatherhead Initative on Gender Inequality and a former International Data Responsability Group fellow. Her dissertation research includes 1) the study of mobile phone usage and refugee mental health in the European migration crisis, 2) mental health screening for refugee populatoins, 3) absolute and relative economic inequality and exposure to violence in South Africa, and 4) geographical trends in HIV acquisition. She serves as Editor-in-Chief for the Harvard Public Health Review and Editorial Assistant for Trauma Psychology News.
+
+<br>
+<h3><span style="color:#0e7cbe;">Shigeko Sasamori</span></h3>
+Shigeko Sasamori was 14 years old when the atomic bomb was dropped on Hiroshima, Japan, the hypocenter of the explosion just two miles away from where she lived. Sasamori sustained extensive burns, but she survived the explosion. In 1955, Japanese reverend Kiyoshi Tanimoto and American journalist Norman Cousins raised funds to bring 25 women from Hiroshima to the United States for reconstructive surgery. The women were later known as Hiroshima Maidens and Sasamori was one of them. She worked as a nurse in the U.S. for many years. Sasamori now acts as a peace advocate to protect the international community against the hazards of nuclear weapons through lectures and other forms of education.
+
+<br>
+
+<h3><span style="color:#0e7cbe;">Dr. Michael Ashley Stein</span></h3>
+Dr. Michael Ashley Stein holds a J.D. from Harvard Law School and a Ph.D. from Cambridge University. Co-founder and Executive Director of the Harvard Law School Project on Disability and a Visiting Professor at Harvard Law School for over a decade, Stein holds an Extraordinary Professorship at the University of Pretoria’s Centre for Human Rights, and a visiting professorship at the Free University of Amsterdam. An internationally recognized expert on disability law and policy, Stein participated in the drafting of the UN Convention on the Rights of Persons with Disabilities, works with disabled people’s organizations around the world, actively consults with governments on their disability laws and policies, advises a number of UN bodies and national human rights institutions, and has brought landmark disability rights litigation. Stein has received numerous awards for his work, including the inaugural Morton E. Ruderman Prize for Inclusion, the inaugural Henry Viscardi Achievement Award, and the ABA Paul G. Hearne Award, and was appointed by President Obama to the United States Holocaust Council. 
+
+<br>
+<h3><span style="color:#0e7cbe;">Tomoko Takagi</span></h3>
+Tomoko Takagi is the co-Founder of JP Bridge Greater Boston Language & Business Communications. She has a degree in Linguistics from Tokyo Woman’s Christian University focused on second language acquisition. She has worked in the Intellectual Property field for more than 15 years in US and Japanese law firms with considerable international business experiences. She currently teaches Japanese language classes for business settings in companies and organizations such as Cambridge Center of Adult Education, as well as for high school and college students. Tomoko also provides translation services for various business needs. JP Bridge Greater Boston Japanese Class: https://www.jpbridgeboston.com/; contact@jpbridgeboston.com
+
+<br>
+<h3><span style="color:#c62346;">Additional Speakers</span></h3>
+
+<span style="color:#0e7cbe;">Dr. Renzo Guinto</span>
+A Filipino physician with broad interests in global health and sustainable development, Dr. Renzo Guinto is a third-year Doctor of Public Health (DrPH) candidate at the Harvard T.H. Chan School of Public Health. He was gifted with a broad array of skills that are essential in reimagining health in the 21st century – from global perspective and effective communication, to strategic thinking and network-building. His experience spans a wide breadth of the public health realm – from universal health care, medical education, and migrant health, to global health diplomacy, noncommunicable diseases, and climate change & energy policy.
+<br><span style="color:#0e7cbe;">Kelly Phouyaphone</span>
+Kelly Phouyaphone joins HGHI as Program Manager for HGHI’s initiatives in Climate Change and Health and Healthy Cities. Prior to joining HGHI, she oversaw research programs in urban slum health and infectious diseases, including the Zika virus epidemic in Northeastern Brazil, at the Yale School of Public Health. She has also been based in Southeast Asia as a Malaria Program Associate for the Lao PDR country office under the Clinton Health Access Initiative (CHAI). She received her MPH in Global Health Program Design, Monitoring and Evaluation at the Milken Institute School of Public Health and a BSc. in Biomedical and Chemical Engineering from Carnegie Mellon University.
+<br><span style="color:#0e7cbe;">Jack Li</span>
+<br><span style="color:#0e7cbe;">Vincent Lin</span>
+<br><span style="color:#0e7cbe;">Foundation for International Medical Relief of Children</span>
+<br><span style="color:#0e7cbe;">Green Medicine Initiative</span>
+<br><span style="color:#0e7cbe;">Harvard Health Policy Review</span>
+<br><span style="color:#0e7cbe;">Medical Humanities Forum</span>
+<br><span style="color:#0e7cbe;">Partners in Health</span>
+<br><span style="color:#0e7cbe;">Red Cross</span>
+<br><span style="color:#0e7cbe;">STEM Inspiration Organization</span>
+<br><span style="color:#0e7cbe;">Storybox Books</span>
+
+
+
+
+<style>
+	a.class3 {
+  color: blue;
+  text-decoration: none;
+  }
+	</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Program highlights -->
+<style>
+.programcolumn {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+</style>
+
+	 Application: <a href="https://forms.gle/Qsq5omzD1wJGGavo9" class="class3"> https://forms.gle/Qsq5omzD1wJGGavo9 </a>
+<div class="programcolumn">
+<h1><span style="color:#c62346;"><div class='roboto-font'> <strong> <span style="font-size:26px;">Conference Highlights </span></strong></div></span></h1>
+
+<div class="col-md-5 col-sm-5 col-md-offset-right-1">
+<div class="program" id="home-projects">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Harvard Global Health Institute</span></h4>
+
+<div class="program-icon pull-left"></div>
+
+	<p>The <span style="color: blue"><a href = "https://globalhealth.harvard.edu/" class="class3">Harvard Global Health Institute</a></span> is an invaluable sponsor of the conference. </p>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="col-md-5 col-sm-6 col-md-offset-1">
+<div class="program" id="home-Chapters">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Speakers</span></h4>
+
+<div class="program-icon pull-left"></div>
+</div>
+
+<div class='open-sans-font'>Hear from leaders such as Harvad professors, CEOs, and physicians talk about global health topics.</div>
+
+
+</div>
+</div>
+<br>
+
+
+<div class="col-md-5 col-sm-6 col-md-offset-right-1">
+<div class="program" id="home-casestudycompetition">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Harvard's campus</span></h4>
+
+<div class="program-icon pull-left"></div>
+
+<p>Enjoy a weekend on Harvard's beautiful campus. See famous sites including the John Harvard Statue, Widener Library, and the Charles River.</p>
+
+
+</div>
+</div>
+</div>
+
+<!--<br> &nbsp;<br>
+<br>
+<br>-->
+
+<div class="col-md-5 col-sm-6 col-md-offset-1">
+<div class="program" id="home-Harvardspeakers">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Community Projects</span></h4>
+
+<div class="program-icon pull-left"></div>
+</div>
+
+<div class='open-sans-font'>Students lead an evidence-based intervention, write a report published in our booklet, and present their work at the conference.</div>
+
+
+</div>
+</div>
+<br>
+<div class="col-md-5 col-sm-6 col-md-offset-right-1">
+<div class="program" id="home-globalhealthexam">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Case Study Competition</span></h4>
+
+<div class="program-icon pull-left"></div>
+
+<p>Students work as a team to write a report evaluating a global health issue and give a presentation at the conference.</p>
+
+
+</div>
+</div>
+</div>
+<div class="col-md-5 col-sm-6 col-md-offset-1">
+<div class="program" id="home-Harvardspeakers">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Narrative Presentations</span></h4>
+
+<div class="program-icon pull-left"></div>
+
+<p>A new addition for 2021 that expands to the medical humanities to understand and share the stories of others in a medical context. Students can compete in 2 categories: Writing and Video.</p>
+
+
+</div>
+</div>
+</div>
+
+<div class="col-md-5 col-sm-6 col-md-offset-1">
+<div class="program" id="home-Harvardspeakers">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Research Projects</span></h4>
+
+<div class="program-icon pull-left"></div>
+
+<p>A new addition for 2021 that extends to the data aspect of global health to expand on our understanding of health in different contexts. Students can compete in 2 categories: Comparative Analysis and Literature Review.</p>
+
+
+</div>
+</div>
+</div>
+
+<div class="col-md-5 col-sm-6 col-md-offset-1">
+<div class="program" id="home-Harvardspeakers">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Conference Exam</span></h4>
+
+<div class="program-icon pull-left"></div>
+
+<p>A new addition for 2021 that extends to the academic aspect of global heatlh. Available for grades 9, 10,& 11 students.</p>
+
+
+</div>
+</div>
+</div>
+
+<div class="col-md-5 col-sm-6 col-md-offset-right-1">
+<div class="program" id="home-globalhealthexam">
+<div class="open-sans-font">
+<h4><span style="color:#0e7cbe;">Network</span></h4>
+
+<div class="program-icon pull-left"></div>
+
+<p>Make lasting friendships and connections: meet diverse students from around the world, collaborate with others, and have a Harvard student mentor for your community project.</p>
+
+
+</div>
+</div>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<!--- end of section from previous site--> 
+<p><br></p>
+<br>
+<br>
+<br>
+
+
+
+	
+
+			<div class="eck-entity component-claim">
+    <div class="claim__subtitle">
+  <p>Learn About
+Global Health</p>
+
+  </div>
+      <div class="open-sans-font">
+  Through the GHLC, you will have the opportunity to learn from Harvard affiliates about many areas of global health.
+  </div>
+
+  </div>
+        <div class="eck-entity component-claim">
+    <div class="claim__subtitle">
+  <p>Impact
+Communities</p>
+
+  </div>
+      <div class="open-sans-font">
+  Students are paired with a Harvard student mentor to help guide students in creating evidence-based and cost-effective community interventions.
+  </div>
+ 
+ </div>
+        <div class="eck-entity component-claim">
+    <div class="claim__subtitle">
+  <p>Grow as a
+Leader</p>
+
+  </div>
+      <div class="open-sans-font">
+  Our students engage with projects that help them develop the confidence and skills that are necessary to be a successful leader.
+  </div>
+ 
+ </div>
+  
+    </div>
+ <!--         <div class="container__footer"><p><em>*Vision was founded in 2014 by Paul Lewis'18 at Harvard College and the first conference was held in 2017. Harvard College Vision is an officially recognized organization at Harvard College that runs the annual Global Health and Leadership Conference.</em></p></div>
+   -->     
+  </div>
+</div>
+
+        
+  <div class="eck-entity component--view component--view--locations">
+          <div class="view__header"><div class="hero__title">Testimonials</div></div>
+        <div class="view__content">
+   
+  
+  
+
+      <header>
+      <span class="legend legend--global-center">“Not only was I inspired by all the speakers and stimulated by the peers who attended the conference, but I was also able to make friends and get to know all the great people!” (Asuka Sakagami, Japan)</span>
+	  <span class="legend legend--field-office">“It is a globally illuminating experience, and a chance to learn so much from some of the brightest minds out there. I wouldn't miss it for the world!”(Isabella Carlo, Connecticut)</span>
+	  <span class="legend legend--support-office">“I feel so encouraged to do more now, I feel inspired from the project that my peers conduct and also what they can become and form into. I feel like I have a huge support, all the speakers were so open to communication and I feel like that is the same in the field.”(Philippa Schunk, Germany)</span>
+    </header>
+  
+  
+  
+    </div>
+  </div>
+
+       
+        <div class="eck-entity component--container container--icon not-slider">
+  <div class="container--inner">
+          <div class="hero__title">Our students impact their communities in various ways</div>
+              <div class="container__header"><p class="text--emphasis"><a href="https://visionghs.github.io//About/Projects">Project Examples </a></p></div>
+        <div class="container__components ">
+            <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/IsabellaCarlo">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="physical health" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Physical Health</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/TaikiYamamoto">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="mental health" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Mental Health</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/GabriellaSpina">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="women's health" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Women's Health</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="social health" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Social Health</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="education" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Education</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="Nutrition" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Nutrition</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset2.png" alt="Medical" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Medical</div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-icon">
+    <a class="icon__wrapper" href="https://visionghs.github.io//About/Projects/">
+      <div class="icon__image">  <img src="https://visionghs.github.io//images/Asset3.png" alt="caregiving" typeof="foaf:Image" />
+
+</div>
+    <div class="icon__subtitle">Caregiving</div>
+    </a>
+  </div>
+
+  
+    </div>
+          <div class="container__footer"><p><a class="btn--primary--orange" href="https://visionghs.github.io//About/Projects/All">SEE ALL</a></p></div>
+        
+  </div>
+</div>
+
+        <div class="eck-entity component--media background-color-white accent-color-orange single-item">
+    
+            <div class="field field--name-field-component-heading field--type-text-long field--label-hidden"><p><strong>Testimonials</strong></p>
+<!--
+<p>We have a wonderful team of university students leading our mission to create civically minded leaders for the future.</p>
+<div class="container__footer"><p><a class="btn--primary--orange" href="https://visionghs.github.io//About/Team">SEE ALL</a></p></div></div>
+      
+      <div class="field field--name-field-component-media field--type-entity-reference field--label-hidden">
+              <div><div>
+    <img src="https://visionghs.github.io//images/team1.jpg" alt="our team" typeof="foaf:Image" />
+  
+      
+</div>
+</div>
+-->          </div>
+  
+</div>
+
+        <div class="eck-entity component--container container--card js-slider">
+  <div class="container--inner">
+            <div class="container__slider">
+            <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+           <img src="https://visionghs.github.io//images/Yiming.jpg" alt="Yiming" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+           
+                  <div class="card__title">
+      Massachusetts
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p dir="ltr">"It taught me so many things about global health. I realized that although global health is very complicated, by persevering and working with a team, great things can be..."</p></div>
+      
+      </div>
+                  <span class="card__btn">Yiming Fang </span>
+          </div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+           <img src="https://visionghs.github.io//images/Caitlin.jpg" alt="Caitlin" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+                  <div class="card__title">
+      Michigan
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“I began to really see the impact of mental health. This conference did a wonderful job of talking about less talked about aspects of global health. We can talk about AIDs...”</p></div>
+      
+      </div>
+                  <span class="card__btn">Caitlin Paquette</span>
+          </div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/Thadah.jpg" alt="Tha Dah" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      California
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“It was interesting focusing on mental health services and the overall inequalities in communities and countries in basic services like water and severe poverty...”</p></div>
+      
+      </div>
+                  <span class="card__btn">Tha Dah Say</span>
+          </div>
+    </a>
+  </div>
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/asukavictortaiki.jpg" alt="Asuka" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Japan
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“Not only was I inspired by all the speakers and stimulated by the peers who attended the conference, but I was also able to make friends and get to know all the great people!”</p></div>
+      
+      </div>
+                  <span class="card__btn">Asuka Sakagami</span>
+          </div>
+    </a>
+  </div>
+  
+  
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/Gerard.jpg" alt="Gerard" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Illinois
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“I am in awe how others put so much time and effort to into their projects and presentations. I liked how there was a wide variety of topics that my peers chose.”</p></div>
+      
+      </div>
+                  <span class="card__btn">Gerard Pena</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/Isabella.jpg" alt="Isabella" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Connecticut
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“It is a globally illuminating experience, and a chance to learn so much from some of the brightest minds out there. I wouldn't miss it for the world!”</p></div>
+      
+      </div>
+                  <span class="card__btn">Isabella Carlo</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/sameena.jpg" alt="Sameena" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Canada
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“I was delighted to meet outstanding doctors, Harvard undergraduates, and most importantly, other ambitious high school students interested in global health."</p></div>
+      
+      </div>
+                  <span class="card__btn">Sameena Shariff</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/Ashani.jpg" alt="Ashani" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Massachusetts
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“I sincerely appreciate the effort this program puts towards helping students who are passionate about global health. The conference opened many doors for individuals all around the world...”</p></div>
+      
+      </div>
+                  <span class="card__btn">Ashani Kurukulasuriya</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/Philippa.jpg" alt="Philippa" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Germany
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“I feel so encouraged to do more now, I feel inspired from the project that my peers conduct and also what they can become and form into. I feel like I have a huge support,...”</p></div>
+      
+      </div>
+                  <span class="card__btn">Philippa Schunk</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/studentsnwb.jpg" alt="students" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Missouri
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“There is nothing but benefits for someone who attends this conference. Personally, it really opened my eyes and inspired me to start making my own impact.”
+
+</p></div>
+      
+      </div>
+                  <span class="card__btn">Olivia Stapf</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/Tianqi.jpg" alt="Tianqi" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      China
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“Even though I was only at the conference for a short time, I totally enjoyed it! I also felt the conference is diverse in terms of the different aspects of global health...”</p></div>
+      
+      </div>
+                  <span class="card__btn">Tianqi Feng</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/Pranav.jpg" alt="Pranav" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Kentucky
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“Communication is a key aspect of Global health, both when a contagion is spreading and when messages about the latest findings on chronic disease or how to live a healthy...”</p></div>
+      
+      </div>
+                  <span class="card__btn">Pranav Kanmadikar</span>
+          </div>
+    </a>
+  </div>
+
+
+        <div  class="eck-entity component-card">
+    <a href="https://visionghs.github.io//About/Testimonials">
+      <div class="card__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">    <picture>
+            <img src="https://visionghs.github.io//images/iris.jpg" alt="iris" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+</div>
+    <div class="card__content">
+
+                  <div class="card__title">
+      Maryland
+      </div>
+                  <div class="card__description">
+      
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>“It is a rare opportunity to see what amazing things are possible in the realm of Global Health and that it is truly inspirational to see so many people motivated to do good...”</p></div>
+      
+      </div>
+                  <span class="card__btn">Iris Berendes-Dean</span>
+          </div>
+    </a>
+  </div>
+
+ 
+  
+    </div>
+            
+  </div>
+</div>
+
+
+
+
+
+
+
+ <div class="eck-entity component-cta background-color-white accent-color-orange image-align-right layout-card">
+  <div class="cta__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/Bella1.jpg" alt="conference" typeof="foaf:Image" />
+
+</div>
+      
+</div>
+</div>
+  <div class="cta__content">
+    <div class="cta__content--inner">
+    <div class="cta__icon"></div>
+             <div class="hero__title">
+        <p>Global Health and Leadership Conference:</p>
+
+        </div>
+                    <div class="cta__subtitle">
+        Join a Tranformative Experience
+        </div>
+                    <div class="cta__description">
+        
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>Conduct Projects, Give Presentations, Impact Communities, and Make Friends around the World! </p></div>
+      
+        </div>
+                    <div class="cta__btns">
+          <a href="https://visionghs.github.io//GHLC/Apply" class="cta__btn">Apply</a>
+        </div>
+          </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+        <div class="eck-entity component-cta background-color-offwhite accent-color-green image-align-left layout-card">
+  <div class="cta__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/GHLC2018.png" alt="ghlc 2018" typeof="foaf:Image" />
+
+</div>
+      
+</div>
+</div>
+  <div class="cta__content">
+    <div class="cta__content--inner">
+    
+               <div class="hero__title">
+        <p>Become a Vision Global Health Scholar</p></div>
+
+        
+                    <div class="cta__subtitle">
+        Engage with global health in a deeper way.
+        </div>
+                    <div class="cta__description">
+        
+            <div class="field field--name-field-component-description field--type-text-long field--label-hidden"><p>Students interested in continuing the work developed in the Global Health and Leadership Conference may apply to be a Vision Global Health Scholar. Selected Fellows work closely with the Vision team to improve on annual programming. They improve the original project design, receive special training in the topic of interest, collect data, discuss findings, and prepare a presentation for the annual Global Health and Leadership Conference hosted at Columbia, Harvard, and Johns Hopkins.</p></div>
+      
+        </div>
+                    <div class="cta__btns">
+          <a href="https://visionghs.github.io//Highschool/Scholars" class="cta__btn">Learn More</a>
+        </div>
+          </div>
+  </div>
+</div>
+
+          <div class="eck-entity component-cta background-color-orange accent-color-orange image-align-left layout-full-width same-color">
+  <div class="cta__image"><div>
+  
+  
+            <div class="field field--name-field-media-image field--type-image field--label-hidden">  <img src="https://visionghs.github.io//images/team.png" alt="donate" typeof="foaf:Image" />
+
+</div>
+      
+</div>
+</div>
+  <div class="cta__content">
+    <div class="cta__content--inner">
+    <div class="cta__icon"></div>
+             <div class="hero__title">
+        <p>Donate to Support our Program</p>
+
+        </div>
+                                <div class="cta__btns">
+          <a href="https://visionghs.github.io//Donate" class="cta__btn">Learn More </a>
+        </div>
+          </div>
+  </div>
+</div>
+
+  
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+</main>
+
+<footer>
+    <div class="region region-footer">
+    <div class="container footer__container">
+     
+<nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+              <ul data-region="footer">
+                    <li class="menu-item--about-us menu-item--expandable">
+        <a href="https://visionghs.github.io//About" data-drupal-link-system-path="node/72551">About Us</a>
+                                <ul>
+                    <li class="menu-item--our-vision--values">
+        <a href="https://visionghs.github.io//About/Vision">Our Vision &amp; Values</a>
+              </li>
+                <li class="menu-item--our-history">
+        <a href="https://visionghs.github.io//About/History" data-drupal-link-system-path="node/72646">Our History</a>
+              </li>
+                <li class="menu-item--our-leadership">
+        <a href="https://visionghs.github.io//About/Team">Our Leadership</a>
+              </li>
+                <li class="menu-item--our-structure">
+        <a href="https://visionghs.github.io//About/Conference">Our Conference</a>
+              </li>
+                <li class="menu-item--our-partners">
+        <a href="https://visionghs.github.io//About/Partners" data-drupal-link-system-path="group/1026">Our Partners</a>
+              </li>
+                <li class="menu-item--accountability">
+        <a href="https://visionghs.github.io//About/Mentoring" data-drupal-link-system-path="node/72741">Mentoring</a>
+              </li>
+                <li class="menu-item--faq">
+        <a href="https://visionghs.github.io//Highschool/Scholars">Scholars</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--our-approaches-to-change menu-item--expandable">
+        <a href="https://visionghs.github.io//GHLC" data-drupal-link-system-path="node/72731">Global Health and Leadership Conference</a>
+                                <ul>
+                    <li class="menu-item--our-global-strategy">
+        <a href="https://visionghs.github.io//GHLC/Apply" data-drupal-link-system-path="node/72696">Apply</a>
+              </li>
+                <li class="menu-item--the-role-of-faith">
+        <a href="https://visionghs.github.io//GHLC/Speakers" data-drupal-link-system-path="node/72726">Speakers</a>
+              </li>
+                <li class="menu-item--global-campaign">
+        <a href="https://visionghs.github.io//GHLC/FAQS" data-drupal-link-system-path="group/1">FAQS</a>
+              </li>    
+        </ul>
+  
+              </li>
+                <li class="menu-item--careers--internships menu-item--expandable">
+        <a href="https://visionghs.github.io//GetInvolved"> Join Our Mission</a>
+                                <ul>
+                    <li class="menu-item--open-positions">
+        <a href="https://visionghs.github.io//GetInvolved/College">College & Graduate Students</a>
+              </li>
+                <li class="menu-item--explore-teams">
+        <a href="https://visionghs.github.io//GetInvolved/Highschool">High School Students</a>
+              </li>
+                <li class="menu-item--explore-locations">
+        <a href="https://visionghs.github.io//GetInvolved/Middleschool">Middle School Students</a>
+              </li>
+                <li class="menu-item--our-culture">
+        <a href="https://visionghs.github.io//GetInvolved/Professionals">Postgraduate & Professionals</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--connect-with-us menu-item--expandable">
+        <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Connect With Us</a>
+                                <ul>
+                    <li class="menu-item--facebook">
+        <a href="https://www.facebook.com/HarvardVision/" class="fa fa-facebook">Facebook</a>
+              </li>
+                <li class="menu-item--youtube">
+        <a href="https://www.youtube.com/" class="fa fa-youtube">Youtube</a>
+              </li>
+                <li class="menu-item--twitter">
+        <a href="https://twitter.com/Harvard_Vision" class="fa fa-twitter">Twitter</a>
+              </li>
+                <li class="menu-item--instagram">
+        <a href="https://www.instagram.com/harvardcollegevision/" class="fa fa-instagram">Instagram</a>
+              </li>
+                <li class="menu-item--linkedin">
+        <a href="https://www.linkedin.com/in/paulmatthewlewis/" class="fa fa-linkedin">LinkedIn</a>
+              </li>
+                <li class="menu-item--contact-us">
+        <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Contact Us</a>
+              </li>
+                <li class="menu-item--world-vision-in-your-country">
+        <a href="mailto:info@harvardcollegevision.org" data-drupal-link-system-path="node/72811">Email</a>
+              </li>
+                <li class="menu-item--report-a-concern">
+        <a href="https://www.messenger.com/t/HarvardVision">Facebook Messenger</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+<div id="block-accountablenowlogo" class="block block-block-content block-block-contentc32d35ab-86e0-4257-b5df-c684ffe90575 block--accountablenowlogo">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden"><p> </p>
+  </div>
+<nav role="navigation" aria-labelledby="block-footerlegal-menu" id="block-footerlegal" class="block block-menu navigation menu--footer-legal">
+            
+  <h2 class="visually-hidden" id="block-footerlegal-menu">Footer Legal</h2>
+  
+
+        
+              <ul data-region="footer">
+          <li class='copyright'>&copy; 2020 Vision Global Health Society</li>
+          <li>
+        <a href="https://visionghs.github.io//History" data-drupal-link-system-path="node/41736">Founded: 2014</a>
+              </li>
+          <li>
+        <a href="https://college.harvard.edu/" data-drupal-link-system-path="node/45251">Harvard College</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+  </div>
+
+
+  </div>
+
+
+<script src="https://visionghs.github.io//js/js_BAqaKhzdQpF_4bl5P0uflguXHhjaa6x5RJiqg5l-nmo.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"006b5744c1","applicationID":"115598855","transactionName":"MVwHZkMDWxBSVhUPDQgWJFFFC1oNHHETExIHVTlxXhBQP3VaEws+IFYXX3MXXA9XUBNLXBRcC1ZUEGUPUlYEDg0KXQBAdw1HDnJWFQ8NCA==","queueTime":0,"applicationTime":311,"atts":"HRsEEAsZSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+ <!-- </body>
+</html> -->
