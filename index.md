@@ -46,7 +46,7 @@
 <input  type="checkbox" checked="checked" id="visionghs-alert-1-26-toggle" class="visionghs-alert--toggle hidden">
 <label  class="visionghs-alert" id="visionghs-alert-1-26" for="visionghs-alert-1-26-toggle">
   <span class="content">
-          <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" class="field--name-message">The 2020 conference has gone virtual due to the Coronavirus. Check out CDC for information</a>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" class="field--name-message">The 2020 conference is virtual. Check CDC for COVID-19 info</a>
         <div class="close">✕</div>
   </span>
 </label>
@@ -467,7 +467,7 @@
   </div>
 </div>
 
-        
+ <!--       
   <div class="eck-entity component--view component--view--locations">
           <div class="view__header"><div class="hero__title">3 sites</div></div>
         <div class="view__content">
@@ -483,7 +483,7 @@
   
     </div>
   </div>
-
+-->
         <div class="eck-entity component-cta background-color-white accent-color-orange image-align-right layout-card">
   <div class="cta__image"><div>
   
