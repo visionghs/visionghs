@@ -133,7 +133,7 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//About/Mentoring" data-drupal-link-system-path="group/586">Mentoring</a>
+      <a href="https://visionghs.github.io//GetInvolved/Highschool/Scholars" data-drupal-link-system-path="group/586">Scholars</a>
                         <img src="https://visionghs.github.io//images/menu5.jpg" alt="mentoring" typeof="foaf:Image" />
 
 
@@ -151,7 +151,7 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//About/CaseStudies" data-drupal-link-system-path="group/646">Case Studies</a>
+      <a href="https://visionghs.github.io//About/Testimonials" data-drupal-link-system-path="group/646">Testimonials</a>
                         <img src="https://visionghs.github.io//images/menu7.jpg" alt="case studies" typeof="foaf:Image" />
 
 
@@ -219,7 +219,7 @@
           </li>
       
     <li class="menu-item">
-      <a href="https://visionghs.github.io//GHLC/Schedule" class="europe" data-drupal-link-system-path="node/72806">Schedule</a>
+      <a href="https://visionghs.github.io//GHLC/Testimonials" class="europe" data-drupal-link-system-path="node/72806">Testimonials</a>
                         <img src="https://visionghs.github.io//images/menu11.jpg" alt="schedule" typeof="foaf:Image" />
 
 
@@ -814,7 +814,7 @@
         <a href="https://visionghs.github.io//About/Partners" data-drupal-link-system-path="group/1026">Our Partners</a>
               </li>
                 <li class="menu-item--accountability">
-        <a href="https://visionghs.github.io//About/Mentoring" data-drupal-link-system-path="node/72741">Mentoring</a>
+        <a href="https://visionghs.github.io//GetInvolved/Highschool/Scholars" data-drupal-link-system-path="node/72741">Scholars</a>
               </li>
                 <li class="menu-item--faq">
         <a href="https://visionghs.github.io//Highschool/Scholars">Scholars</a>
