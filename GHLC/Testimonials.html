@@ -1,0 +1,831 @@
+ <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"006b5744c1",applicationID:"115598855"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<link rel="shortlink" href="https://visionghs.github.io//" />
+<link rel="canonical" href="https://visionghs.github.io//" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://visionghs.github.io//favicon.png" type="image/png" />
+<link rel="alternate" hreflang="en" href="https://visionghs.github.io//" />
+<link rel="alternate" hreflang="fr" href="https://visionghs.github.io//" />
+<link rel="alternate" hreflang="es" href="https://visionghs.github.io//" />
+<link rel="revision" href="https://visionghs.github.io//" />
+<script src="https://visionghs.github.io//google_tag/drupal_gtm_container/google_tag.script.js?q71t5h" defer></script>
+
+  
+ <title>Vision | Global Health Leadership</title>
+<link rel="stylesheet" media="all" href="https://visionghs.github.io//css/styleset1.css">
+<link rel="stylesheet" media="all" href="https://visionghs.github.io//css/styleset2.css">
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:400,700,900" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+  </head>
+  <body class="page--front">
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+       <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  <div class="region region-alert">
+    <div class="views-element-container block block-views block-views-blockalert-block-1 block--views-block-alert-block-1" id="block-views-block-alert-block-1">
+  
+    
+      <div><div class="js-view-dom-id-a74d360a73b24ddb8b44f269cc58bc6e49deffe4b98bb6b82ea64fc72a19d140 views-view--alert views-view--alert--">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+
+<input  type="checkbox" checked="checked" id="visionghs-alert-1-26-toggle" class="visionghs-alert--toggle hidden">
+<label  class="visionghs-alert" id="visionghs-alert-1-26" for="visionghs-alert-1-26-toggle">
+  <span class="content">
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" class="field--name-message">The 2020 conference is virtual. Check CDC for COVID-19 info</a>
+        <div class="close">✕</div>
+  </span>
+</label>
+</div>
+
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+
+  <div class="region region-topnav">
+    <div class="container">
+      <div id="block-sitebranding" class="block block-system block-system-branding-block block--sitebranding">
+  
+    
+              <a class="topnav__logo" href="/" title="Home" rel="home">
+        <img src="https://visionghs.github.io//images/logo.png" alt="Home"/>
+      </a>
+          
+</div>
+      <div class="show-menu" aria-label="Show Menu" aria-controls="menu-level-0"></div>
+  <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main region-topnav__menu--main">
+                      
+    <h2 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+    
+
+              
+<ul class="menu menu-level-0">
+  
+  <li class="menu-item menu-item--expanded menu-item--our-work">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//About" class="our-work" data-drupal-link-system-path="node/72681">About Us</a></div>
+              
+    
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+    <ul class="menu menu-level-1">
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Vision" class="impact">Our Vision & Values</a>
+                        <img src="https://visionghs.github.io//images/menu1.jpg" alt="vision and values" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/History" data-drupal-link-system-path="group/641">History</a>
+                        <img src="https://visionghs.github.io//images/menu2.jpg" alt="history" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Conference" class="dis-man" data-drupal-link-system-path="group/606">Conference</a>
+                        <img src="https://visionghs.github.io//images/menu3.jpg" alt="conference " typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Partners" class="econ-dev" data-drupal-link-system-path="group/651">Partners</a>
+                        <img src="https://visionghs.github.io//images/menu4.jpg" alt="partners" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/Highschool/Scholars" data-drupal-link-system-path="group/586">Scholars</a>
+                        <img src="https://visionghs.github.io//images/menu5.jpg" alt="mentoring" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Projects">Projects</a>
+                        <img src="https://visionghs.github.io//images/menu6.jpg" alt="projects" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Testimonials" data-drupal-link-system-path="group/646">Testimonials</a>
+                        <img src="https://visionghs.github.io//images/menu7.jpg" alt="case studies" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About/Team" data-drupal-link-system-path="group/576">Our Team</a>
+                        <img src="https://visionghs.github.io//images/menu8.jpg" alt="our team" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//About" class="show-more">View All</a>
+                      
+
+          </li>
+    </ul>
+
+
+
+      </div>
+
+
+
+      </li>
+  
+  <li class="menu-item menu-item--expanded menu-item--where-we-work">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//GHLC" class="where-work" data-drupal-link-system-path="node/72811">Conferences</a></div>
+              
+    
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+    <ul class="menu menu-level-1">
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Apply" class="africa" data-drupal-link-system-path="node/72761">Apply</a>
+                        <img src="https://visionghs.github.io//images/menu9.jpg" alt="apply" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Locations" class="amer-carib" data-drupal-link-system-path="node/72766">Locations</a>
+                        <img src="https://visionghs.github.io//images/menu10.jpg" alt="locations" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Speakers" class="asia-pacific" data-drupal-link-system-path="node/72771">Speakers</a>
+                        <img src="https://visionghs.github.io//images/menu12.jpg" alt="speakers" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/Testimonials" class="europe" data-drupal-link-system-path="node/72806">Testimonials</a>
+                        <img src="https://visionghs.github.io//images/menu11.jpg" alt="schedule" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC/FAQS" class="middle-east" data-drupal-link-system-path="node/72796">FAQS</a>
+                        <img src="https://visionghs.github.io//images/menu13.jpg" alt="faqs" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GHLC" class="show-more" data-drupal-link-system-path="node/72811">See All</a>
+                      
+
+          </li>
+    </ul>
+
+
+
+      </div>
+
+
+
+      </li>
+  
+  <li class="menu-item menu-item--expanded menu-item--resources">
+    <div class="menu_link_title"><a href="https://visionghs.github.io//GetInvolved" class="resources" data-drupal-link-system-path="node/72561">Get Involved</a></div>
+              
+    
+  <div class="menu_link_content menu-link-contentmain view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+    <ul class="menu menu-level-1">
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/College" class="stories" data-drupal-link-system-path="stories">College & Graduate Students</a>
+                        <img src="https://visionghs.github.io//images/menu14.jpg" alt="college & grad students" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/Highschool" class="newsroom" data-drupal-link-system-path="newsroom">High School Students</a>
+                        <img src="https://visionghs.github.io//images/menu15.jpg" alt="high school students" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/Middleschool" class="publications" data-drupal-link-system-path="publications">Middle School Students</a>
+                        <img src="https://visionghs.github.io//images/menu16.jpg" alt="middle school students" typeof="foaf:Image" />
+
+
+
+
+          </li>
+      
+    <li class="menu-item">
+      <a href="https://visionghs.github.io//GetInvolved/Professionals" class="thought-leader" data-drupal-link-system-path="node/72831">Postgrad & Professionals</a>
+                        <img src="https://visionghs.github.io//images/menu17.jpg" alt="postgrad & professionals" typeof="foaf:Image" />
+
+
+
+
+          </li>
+    </ul>
+
+
+
+      </div>
+
+
+
+      </li>
+</ul>
+
+      </nav>
+  <div id="overlay--dropdown" class="overlay--dropdown"></div>
+<nav role="navigation" aria-labelledby="block-getinvolved-menu" id="block-getinvolved" class="block block-menu navigation menu--get-involved">
+            
+  <h2 class="visually-hidden" id="block-getinvolved-menu">More</h2>
+  
+
+        
+              <ul data-region="topnav">
+                    <li class="menu-item--get-involved menu-item--expandable">
+        <a href="/More" class="get-involved" data-drupal-link-system-path="node/72911">More</a>
+                                <ul>
+                    <li class="menu-item--sponsor-a-child">
+        <a href="https://visionghs.github.io//GHLC/Apply" class="sponsor" data-drupal-link-system-path="node/72686">Apply to Conference</a>
+              </li>
+                <li class="menu-item--emergency-support">
+        <a href="https://visionghs.github.io//Contact" class="emergency">Contact Us</a>
+              </li>
+                <li class="menu-item--donate">
+        <a href="https://www.paypal.com/paypalme2/HarvardVISION" class="donate" data-drupal-link-system-path="node/72886">Donate</a>
+              </li>
+                <li class="menu-item--pray-with-us">
+        <a href="https://visionghs.github.io//GetInvolved" class="prayer" data-drupal-link-system-path="node/72891">Get Involved</a>
+              </li>
+                <li class="menu-item--campaign-with-us">
+        <a href="https://visionghs.github.io//Directory" class="work-with-us" data-drupal-link-system-path="group/1">Site Directory</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+    </div>
+  </div>
+
+
+  <div class="region region-preheader">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+<header>
+    <div class="region region-header">
+    
+  </div>
+
+    
+</header>
+
+<main role="main" id="main-content" tabindex="-1" class="body-wrapper">
+    <div class="region region-content">
+    <div id="block-visionghs-2018-content" class="block block-system block-system-main-block block--visionghs-2018-content">
+  
+    
+      
+<article role="article" about="/homepage" class="node--landing-page page--homepage">
+
+  <div class="hero-overlap">
+          <div class="eck-entity component--container container--hero not-slider">
+    <div class="container__components__hero">
+    <div class="views-element-container"><div class="js-view-dom-id-6ae94b31c29563a793f42999a5e345204f59b97a9b30aef8902e65d8f52dec18 views-view--random-hero views-view--random-hero--">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+  <div class="eck-entity hero--default component-hero image-align-bottom text-align-right text-color-white">
+    <div class="hero__background">
+      <div>
+  
+  
+            <div class="field field--name-thumbnail field--type-image field--label-hidden">    <picture>
+  
+            <img src="https://visionghs.github.io//images/Fayh.jpg" alt="Testimonials" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+      
+</div>
+
+    </div>
+    <div class="hero__content">
+      <div class="hero__content--inner">
+                  <div class="hero__title">
+            Testimonials 
+          </div>
+                          <div class="hero__subtitle">
+            Read what past attendees said about our program and apply to join the experience
+          </div>
+                                  <a href="https://visionghs.github.io//GHLC/Apply" class="btn btn--lg btn--primary--orange">Apply</a>
+              </div>
+    </div>
+  </div>
+
+</div>
+
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+  </div>
+
+<!-- Testimonial --> 
+<div class='roboto-font-center'><h2>Testimonials</h2></div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.roboto-font-center {
+	font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    }
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+  border-color: #FFFFFF;
+  -webkit-column-rule: 4px double #ff00ff; /* Chrome, Safari, Opera */
+  -moz-column-rule: 4px double #ff00ff; /* Firefox */
+  column-rule: 4px double #ff00ff;
+
+}
+</style>
+
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Ambrose Rajendran<br>(Massachusetts)</h3>
+    <p>“"The conference impacted me by helping me learn from mentors such as Paul Lewis and Katelyn Li, who am indebted to, and from the different speakers each year. I also learned how to run fundraisers for any cause that I want to support, and also how to properly leave my comfort zone. What I mean by this is that I did a presentation on pediatric cancer, conducted fundraising for the cause and for VISION, and I did a case study with a group. We worked on a project about the elderly and how we need to better care for those with Alzheimer’s. I did this project not only with people who I didn’t know, but people from different schools. The relationship that I had created with them is unlike any that I had created before. All things I would have never had I decided to stay within my limits and all things that helped me build up my slightly damaged confidence from my dad’s job loss."”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Shazain	Khan<br>(Massachusetts)</h3>
+    <p>“" The conference last year had a myriad of different effects on me. For example, listening to the vast amount of knowledge that the various guest speakers had to offer made me feel inspired to enact change in my own community. Moreover, I feel like I have acquired new and valuable knowledge that can serve me not only in informing the initiatives I wish to pursue, but also in educating my perspective and allowing me to participate in intellectual discussions regarding such topics. 
+        Moreover, watching the student presentations allowed me to incorporate crucial changes in my own projects and try to facilitate progress in my community. I also found the tales from events like the bombings of Hiroshima and Nagasaki to be truly eye-opening and vital for my understanding of the atrocities committed during that time, and their effect on people living even today. 
+        Additionally, simply meeting a great number of people allowed me to network and establish new and meaningful relationships with new students, expanding my knowledge of not only the country but of the world as well.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Srish Chenna<br>(Delaware)</h3>
+    <p>“"      By attending the conference last year, I was inspired by the speakers and my like-minded peers to continue pursuing my community outreach interests to the next level.
+       Whether it was the Elmo, the “That was easy!” button, or even ""Digging"" by Seamus Heaney, experimenting with voice modulation and accent has always been an interest of mine. Allowing me to express myself in multiple dimensions, voice mimicry is an outlet for my creativity. I can put myself in people's shoes, providing me with insight into and background about their lives.
+From 9th grade, I have been visiting Exceptional Care for Children(ECC), a nursing home for terminally-ill children, as a play-date resident. In my time interacting with the children, I found that they spent most of their time alone. The nurses, occupied with the task of caring for sick children, couldn't find time to entertain them. Although I would love to stay there with them for a long time, the long drive coupled with increased schoolwork and activities forced me home after a few hours.
+       Whenever I couldn't make it to the nursing home, I would construct a makeshift recording setup at home and begin recording books in my free time. When I visited ECC after I started recording my audiobooks, I was overjoyed to hear that the children loved listening to the books over and over. Soon, there were favorites such as the Dr. Seuss collection complete with Green Eggs and Ham and the Cat in the Hat. It was heartwarming to see the positive impact my hobby could have on the children and I will surely continue making the audiobooks into the future. 
+"”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Asuka Sakagami<br>(Japan)</h3>
+    <p>“Not only was I inspired by all the speakers and stimulated by the peers who attended the conference, but I was also able to make friends and get to know all the great people!”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Gerard Pena<br>(Illinois)</h3>
+    <p>“I am in awe how others put so much time and effort to into their projects and presentations. I liked how there was a wide variety of topics that my  peers chose.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Isabella Carlo<br>(Connecticut)</h3>
+    <p>“It is a globally illuminating experience, and a chance to learn so much from some of the brightest minds out there. I wouldn't miss it for the world!”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Kennedy Tyson<br>(Alabama)</h3>
+    <p>“After attending last year’s  conference, I learned so much information that would have been oblivious to me otherwise. It was truly inspiring to hear presentations from people, including those my age, who were making a difference in their communities and those of others. As a result of their presentations, I realized how much more I could do to improve matters as well. It was also really cool to hear presentations by those who worked to promote legislation involving global health issues to help raise awareness and of those feeling oppressed.
+	Finally, my favorite experience from the conference was getting to meet Dr. Renzo R. Guinto, who spoke during the panel about climate change and antimicrobial resistance. I really enjoyed listening to him speak, and afterwards he gave me his contact information so that I could reach out to him for more information. Coincidently and perhaps motivated by the talk, this year in school I am conducting a Science Fair Project on antibiotic-fed chickens and their contribution to antimicrobial resistance, and I will definitely be reaching out to him soon.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Isabella Carlo<br>(Connecticut)</h3>
+    <p>“"After attending the Harvard Global Health and Leadership Conference in 2019, my passion for medicine exploded even more. Being surrounded by such intelligent individuals was immensely inspiring, and I went home after the concluding ceremonies with my mind racing. The weekend got me thinking about everything that I could improve upon in the future and all the problems to be solved in the global health field. I left feeling empowered and capable, ready to take on these issues.  
+But the truth was, I already had taken on some of these issues, and the conference had given me the tools to do so. I was initially apprehensive about completing a project for the conference, doubting my ability to do implement it effectively. I was worried that whatever I did might be underwhelming compared to the projects of my peers. But I eventually took the leap of faith and decided to go ahead with it- and I’m so glad I did. The process of completing my project taught me that I can effect change and have a greater impact than I ever thought possible- that individuals truly do have the power to make a difference. Working with Harvard gave me the confidence to put a dream of mine into action, and I admire wholeheartedly their support of student endeavors. It enables students to realize their plans, guiding them throughout the process. Without their help, I wouldn’t have been able to complete my research or even have known how to begin it- I will be forever grateful for what I learned both at Harvard and during the process of developing my health intervention. Simply put, the Global Health conference taught me that my peers and I can change the world- and gave me the confidence to do it.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Ian Givens<br>(Connecticut)</h3>
+    <p>“Attending the conference in 2019 was truly a life-changing experience for me. I competed in the case-study competition last year where I dove into the different areas of caregiving. This project allowed me to gain better insight into the types of caregiving and how different environments influence their effectiveness. In addition to the case study, the conference also exposed me to many influential students and speakers. Students had creative projects and research that they shared while the speakers talked about their profession, their past experiences, and advice on how to navigate through the business world.”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Vivian Liu<br>(Massachusetts)</h3>
+    <p>“"Attending the conference in the past has made an incredible impact on me. Not only was the conference inspiration to become involved in global health in the first place, but it also gave me insight and ideas as to how I can remain involved in global health as I get older. The first time that I went to the conference, I had zero idea as to what global health was. But since then, I have started my own global health club which raises awareness about different global health issues and implements projects within the community related to them. The first project that we tackled involved period equality for women. We did a screening of the award winning short film “Period. End of Sentence.” and started a take on leave on period product dispenser in the girl’s bathrooms as well as donating products to a nonprofit organization. We have also visited a nursing home and hosted a holiday party for patients affected with Alzheimer’s, dementia, and other memory impairing illnesses. These are only the first steps we’ve taken towards making a larger impact in the global community. The club is one way that the conference has impacted global health within my community, but it has also impacted me personally. Before, I was lost as to what I wanted to do when I got older, however, the conference presented so many different ways you can be a part of the global community whether it is through programming software to identify symptoms of a disease conducting studies in other areas meant to improve the quality of life for a certain group of people, such as the effect of television programs on a society. It became so clear to me that I wanted to be involved in global health.
+"”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Ella Baer<br>(Missouri)</h3>
+    <p>“Ever since the conference last spring, I have been researching the non-profit of Doctors without Borders. This organization interests me because of the selflessness and principles in aiding global health. They work to help those of low income in poorer countries. Living in my situation, I haven’t been fully exposed to the discrepancy of the basic necessity of health. I had recently read the book I Am Malala, and it began to make me think of how standing up to injustices can make a true impact. Malala stood up for the injustice of education, and this book helped me to realize the effect of standing up. I have also been researching gun violence in America. After about a semester's worth of research, I have composed presentations that I have presented to the school and local communities. The mock TED talk focuses on the social injustice of gun violence, especially in school communities. ”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Ashani Kurukulasuriya <br>(Massachusetts)</h3>
+    <p>“I am very fortunate to have had the privilege of attending the 2019 GHLC. It allowed for me to work with my peers to conduct and even present concrete projects on two very important global health issues. Attending the conference has had a tremendous impact on how I think about my next steps, especially as I embark on my college years. After hearing from entrepreneur Yuchi Ishii,  I began to ponder about merging entrepreneurship and global health into a potential career field. This interest continues to hold for me as I begin to decide what I would like to study in college. In addition, the conference also has emphasized the importance of public speaking and the value of being a confident orator, which is a skill I am actively trying to strengthen. I thought it was incredible that the conference exposed me to speakers from across the globe who openly shared their life experiences, research, and advocacy efforts. ”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Hannah Pescaru<br>(Illinois)</h3>
+    <p>“I attended the 2019 conference, and I was captivated by each speaker that took the time to present. They were all knowledgable and made each project fun to listen to! Each attendee also brought their own story and ideas, which made brainstorming more fun and productive. The presentations were diverse, and every one was passionate about its particular issue. I was so happy to be a part of a group that cared so much about helping so many and making the world a better place for future generations. I hope to be a part of it again so I can build on my memories and share them with others.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Anna Toneva<br>(Illinois)</h3>
+    <p>“I attended the 2019 GHLC and it was like nothing I’ve experienced before. I was in a room surrounded by teenagers who were all there to learn about global health and leadership. I learned so much about what global health is. When I would hear the term global health I would always think of doctors traveling to help those in need or organization that brings food and other resources to people in need. However, after attending the conference last year I realized there was so much more to global health than I once believed there was. I don’t think that I would’ve truly began to understand what global health is if I didn’t attend the conference last year.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Lily Bayer<br>(Missouri)</h3>
+    <p>“"I attended the Conference in April of 2019 during my sophomore year of high school. Growing up I was always told to support and believe in global health issues, yet I had never met people who have been personally impacted by global health. Each speaker truly opened my eyes to various issues  around the world that would have otherwise gone unnoticed by me, because I was born into a situation of privilege. I was touched emotionally by what each speaker had to say and it motivated me to at least try to touch the lives of people experiencing hardships in global health. Starting my volunteer position at the hospital, I was slightly opened up to the reality of health crisis's. For example, I met and interacted with countess patients facing struggles they were not mentally or financially prepared for. These experiences at a young age gave me a glimpse of what the majority of the world is facing. Moreover, because of these speakers motivating me to seek out issues in my own community, I have shaped my global health goals for the future.
+"”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Lauren Falk<br>(Missouri)</h3>
+    <p>“I attended the Global Health and Leadership Conference in April of 2019 at Harvard University. My school had recommended me for this conference and I was overjoyed when I found out I had the opportunity to go. When I found out that I had been accepted I was thrilled to be able to participate in this special experience. Although last year I was unable to do a project with the girls that I went with, I learned a lot from the other people that presented them. The other two girls that applied to go again this year and I all agreed that we would be interested in doing a project because of how inspired we were from the other ones presented to us. Overall, I thought this conference was amazing last year. The people that spoke all were incredibly unique and all had their own story to share with us. My favorite out of all the presenters was the sweet woman from Hiroshima. (She was adorable!) Her story was shocking and she is so strong to be able to share that with people today and continue sharing it. She was not the only presenter I was amazed by, all of the presenters had the most interesting and cool presentations to share with us. This year, I hope to learn more ideas and see more extraordinary and moving presentations.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Gerard Pena<br>(Illinois)</h3>
+    <p>“I attended the Harvard GHLC last year, and let me say how that was a very enlightening experience. This conference contained people who really want to change the world for the better, and it really made me ecstatic to see how the joy of helping others makes everyone feel. Watching keynote speakers and other students only sent me positive energy. All the speakers genuinely enjoy what they do, and because of that, it makes the audience enjoy what they do as well. Meeting new people and hearing about all these projects around the world really left me with a warm feeling in my heart, because I knew there were people who wanted to change the world. As for presenting my project last year, I felt like I had a voice. I wasn't exactly nervous to present, as public speaking doesn't really faze me, but I was nervous that others might think my project was too simplistic. After all, I just talked about the opioid crisis and how I spread the word about it around my community and how to treat addiction. Before the conference, I thought my project wasn't going to stand up against the other students, but to my behold after I spoke, I had people coming up to me saying I was really making an impact, and I was even a featured project. This made me feel like I was actually doing something to contribute to the world, especially since this was coming from Harvard University. I left that conference feeling very good about myself. To this day, I still get student reporters at my school interviewing me about my project and the GHLC.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Brigitte Cueter<br>(Illinois)</h3>
+    <p>“I thoroughly enjoyed being able to go and listen to the different speakers talk about their different topics. It was very interesting to hear some unique ideas and plans that actually were taken into action as well as stories told by certain people. The conference has given me a greater knowledge and understanding of global health and what people go through in there every day lives. It was very interesting to hear some unique ideas and plans that actually were taken into action as well as stories told by certain people. The conference has given me a greater knowledge and understanding of global health and what people go through in there every day lives. There are many people that I never knew went through different hardships or challenges in their lives that led up to a certain point where they did the impossible and succeeded in their efforts to do what they thought was best. The conference from last year will always have a special place in my heart because of how wonderful it was to learn about the speakers and their successes. I hope that this year will also be the same and that I can remember each moment that I had in that time.”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Ke Jiang<br>(Connecticut)</h3>
+    <p>“I went to Harvard Global Health and Leadership Conference in 2019, and I learned many new ideas from the speakers and projects shared by the students. It is the first time for me to discuss global problems as a group. Until I attended the conference, I had a more thorough idea of global health and I decided that I am going onto the path of medical school. At the conference, many students gave a presentation on their research. I did the opioid project, but I did not present because I failed to have a conclusion. Yet, a kid presents a PowerPoint related to opioid, which inspire my further project on it. Over the summer, I went back to China and volunteered in a center for disease control and prevention. I learned the basic health system in China and explored various interesting facts related to global health. Therefore, I want to go back this year to share my experience. ”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Nishi Manikandan<br>(Massachusetts)</h3>
+    <p>“I went to the conference last year and had a really great day! I enjoyed learning about how different things like electronics and mental health really affect this world. I also really enjoyed learning about the Hiroshima and Nagasaki bombings from someone that experienced it themselves. We learned about it in school and while the teachers did a wonderful job teaching, they were never able to tell the details from Japan’s point of view. With the heavy impact it had I hope there’s never a situation like that again. The Family Romance presentation was also great to hear about. It was very interesting to learn that there are so many people out there from small children to fully grown adults that think this one man is their father. It really goes to show that with little effort, one person can affect someone so much. Not only did the presentations teach me but I also learned about global health through my own research. By participating in the group presentations, I learned about many clubs like the Lions club that helps people who can’t afford glasses see better. They also taught me that even with minimal effort you can make someone’s life so much better.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Michelle Mazzu<br>(Massachusetts)</h3>
+    <p>“It may seem cliché to say that the conference changed my life, but in my case it is the honest truth. Before the conference I did not pay attention to the global aspect of health and different political issues. After my first attendance to the conference I was impacted by the speakers who have dedicated their lives and careers to Global Health issues. My inspiration to start my own club at the Bromfield School was because of this irreplaceable conference. Not only did I meet a whole new community of people with like minds but I also learned to collaborate with strangers from all around the country and world to complete a case study. It was unbelievable to see how other teenagers were concerning themselves with pressing topics such as influenza. I took the knowledge from the first year and started the Global Health Society. This group has become my family and safe haven at school and has also given me a new goal for my high school career and beyond. ”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Emily Douglas<br>(Massachusetts)</h3>
+    <p>“Last year was my first year at the conference, and the experience has helped my grow greatly as an individual. To begin, I was able to be pushed out of my comfort zone when I took part in the case study competition and was able to work with new people. I’m often very shy when it comes to meeting new people, though it helped me develop interpersonal skills and communication. Furthermore, I’ve never been particularly good at public speaking, though at the conference it was required for me to present my findings during a presentation. Through this requirement I was able to evolve my research and speaking skills. These skills are imperative for my day to day school life. Additionally, I was able to advance my knowledge on the subject of global health by attending the conference. This is due to the fact that I was lucky enough to watch countless presentations by astute professors, speakers, and undergraduates. ”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Sara Bernardo<br>(Massachusetts)</h3>
+    <p>“Last year, I attended the conference for the first time and I took away a lot of great information and met people from so many places. The biggest impact was hearing about the different projects the other students completed. I liked the variety of the topics and hearing about the different health related topics were occurring. It helped me open my eyes to know of what is going on around me. By getting more informed about these health related topics, I am reminded of how much work is needed. I have been reading more about health related topics and watching more on television. I used to glance over some health related topics and not take the time to really understand them but now I really delve into them. ”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Sophia Lindsay<br>(Massachusetts)</h3>
+    <p>“Last year's conference was one of the most incredible experiences of my life. The most memorable part was hearing Professor Michael Stein speak to us about disability rights, which I am incredibly passionate about. It truly was an out of body experience in which I saw representation that I had no idea existed. I was inspired by his lecture to delve deeper into the world of disability-specific global health and since then I have taken it upon myself to educate my peers on the effects of the plastic straw ban on the disabled community. Also, Shigeko Sasamuri gave me a completely different perspective on World War I. We have discussed the events of World War I many times since I heard her speak, and she blessed me with a new perspective on the events. Before, I was prejudiced in my opinions about the war from an American centered education system. Now I see that there is a whole side of the story that I did not know, and for that I eternally grateful. ”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Sanjna Enjeeti<br>(Massachusetts)</h3>
+    <p>“The conference has opened my eyes to the different ways people have impacted their communities. I learned about the cool, interesting projects my peers have designed and implemented in local areas. By learning about these, I was inspired to start something of my own.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Shreya Modi<br>(Massachusetts)</h3>
+    <p>“The conference gave me a chance to be in the curious and working environment at Harvard with tons of other students that had similar interests and many things to contribute. I was able to gather lots of information and learn about the lives of other people and how the working world and world itself had an impact on them, and even how they are trying to better the world we live in. ”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Rim Bozo<br>(Massachusetts)</h3>
+    <p>“The conference has caused me to strengthen my characteristics. At last years meeting I was beyond nervous ad kept to myself for the first few hours. However, towards the end of the meet I had created many new friends and talked to may new people which helped me be more involved in global health academically and socially. Through last years conference I became more involved in my schools advocacy clubs and started my own club to help reduce global health problems around my city. ”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Chinyere Aguwa<br>(Michigan)</h3>
+    <p>“"One thing I loved about the conference last year was the range of topics that the speakers discussed. It was interesting to learn about how a professor was changing the lives of people that experienced PTSD from the earthquake in Haiti, then hearing someone from Japan that created an app that allowed people to hire someone that could improve their lives. These topics offered a unique perspective of global health that I did not think about prior to attending. After the conference, I learned that global health is not just using methods to solve a few problems such as poverty and providing clean water but it also extends to finding other ways to ensure that at a certain point, almost everyone is happy in their mental and economic circumstances. The speakers and student presentations made me realize this, but there was one specific presentation that made an impact on my view of global health. 
+That presentation was from Shigeko Sasamori who was a survivor of the bombing of Hiroshima during World War II. A few days before the conference, I learned about the bombing in Hiroshima in my history class, and I was interested in seeing whether or not the U.S. had a proper reason to bomb the nation. I did a bit of research about experiences from American and Japanese perspectives. But, Ms. Sasamori made me realize that 1) the decision to bomb Hiroshima was unethical and 2) many of us have the power to prevent these types of events from happening. The event affected innocent people in Japan and gave them health problems that lasted for a lifetime. Since many people of our generation are knowledgeable about the topic, it is our job to find other tactics to settle conflicts and maintain a healthy world for all.
+"”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Madison Hayden<br>(Kentucky)</h3>
+    <p>“The conference last year has impacted me in multiple ways by allowing me to: learn about different fields in medicine/health (this led me to finding my love of OT), improving my public speaking skills, and communicating with diverse groups. As I watched the different speakers introduce themselves and what they were going to talk about, I saw the various fields of health/medicine available, not just being a doctor. My Case Study Competition group was wonderful in supporting me even when I was extremely nervous about presenting. Even though my group didn't place, we had so much fun presenting and we learned a lot about our topic. Finally, the conference impacted me by letting me communicate with diverse groups. My group consisted of two Asian-identifying students, a black student (myself), and a Caucasian student. We all lived in different areas and time zones, so communicating was a struggle, but we somehow managed to do it and have a great (in my opinion) presentation.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Jahnavi	Prudhivi<br>(Massachusetts)</h3>
+    <p>“The Conference taught me to be more aware in my community. I learnt all the accomplishments my peers and I have done, and I wanted to put use to it. I wanted to continue working on my topic I've done last year which was Alzheimer's Disease. I took surveys, I've invited a speaker to come talk to the middle schoolers, and I've started a GoFundMe in which I've raised around $900. I've found out about the lack of research money and the lack of awareness in the community. Further more, I've started to wander in my own community and helped them with whatever they'd want me to do. I helped the Hopkinton Police Department/Station by hosting an event called "National Night Out," a community-police based event where people hang out, and have fun including building relationships with the police members. I've continued to volunteer with the senior center and I try to help people as much as I can.”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Allison	Fields<br>(Missouri)</h3>
+    <p>“The Global Health conference has significantly impacted my life because it taught me how to be an active learner, instead of passive. Before the conference, I was interested in global health, but I was not seeking out ways to learn more. After the conference, I was invested in global health, that I began looking for local conferences in my community to attend. For example, last May, I attended a symposium on the social determinates of health. I went from thinking that the little knowledge I had was enough, to constantly looking for ways and opportunities to learn more. The conference also helped with my self-confidence. It reminded me that I, as a student have a responsibility to share what I have had the privilege to learn and it empowered me to go out and share.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Pranav Kanmadikar<br>(Kentucky)</h3>
+    <p>“The Harvard University Global Health and Leadership Conference has had a significant impact on me as a student, researcher, and mentee in terms of allowing me to familiarize myself with global health conceptual frameworks and methodological techniques; to conduct community interventions in my hometown of Louisville, Kentucky; as well as to collaboratively involve myself with seasoned professionals in order to determine the optimal methods through which my service initiatives can be evaluated and improved upon. In the 2018 and 2019 Conferences, I had the ability to participate in both the implementation of my community project as well as the Case Study Competition. In 2019 particularly, the Conference’s mentors were especially helpful because, despite my previous experience, I had unfortunately hit a roadblock in terms of being unable to conceptualize new topics of research in my area of interest (i.e., the food—energy—water security nexus) even though I was aware that I had only “scratched the surface” of what global health professionals have researched in that area. However, through the conference, I was able to view other projects, brainstorm novel research ideas, and gain more awareness of the conceptual basis of future research projects that I may undertake. I expanded my skills in evaluating global health studies and immersed myself in the field while gaining baseline skills through the observation of highly nuanced and interdisciplinary research presentations, many of which were applicable to my fields of interest (e.g., sustainability, technology, systems science, environmental studies). Furthermore, the feedback which I received from my mentors regarding my local food insecurity alleviation efforts inspired me to broaden my efforts, culminating in my second-year project that successfully and holistically operationalized a novel food—energy—water security nexus intervention assessment to evaluate sector-specific energy deprioritization among micro-level nonprofits.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Mary Catherine Hanafee LaPlante<br>(Illinois)</h3>
+    <p>“This conference had an enormous impact on me. After winning the care-giving case study last year, my team has gone on to implement a project based on that case study at our respective school's. This project has been recognized and supported by the Ilinois School Counselor Association. In addition, I applied and was accepted to the HERlead fellowship after hearing about it from this conference. That experience was life-changing and opened so many doors for me. ”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Yiming Fang<br>(Massachusetts)</h3>
+    <p>“It taught me so many things about global health, and I realized that although global health are very complicated, by persevering and working with a team, great things can be achieved, I feel so much more inspired and hopeful, and my mindset has broadened as well.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Sudarshan Ramanan<br>(Massachusetts)</h3>
+    <p>“This conference has allowed me to get a greater appreciation of the vast field of global health. After hearing from various speakers such as Dr. Omar Heque and Dr. Anne Becker, I was able to understand how advancements and challenges in the field. For example, I learned that as a practitioner of global health, one could focus on legislation and laws while another person could focus on research and clinical practices. Apart from this, I had a great experience being a part of the case study competition. In the case study competition, I learned how to conduct research and then consolidate it into a cohesive study. Specifically, I developed skills on how to design a survey and conduct interviews that could effectively ask questions to the participant. I then figured out how to efficiently organize the information and present it in a clean and concise manner to an audience. It also helped me develop skills on how to work with people I have never met before. Typically, when doing projects, I always have the opportunity to choose students whom I know. But with this case study project, I was able to work with students across the United States without any prior interaction, which helped me improve my collaboration skills.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Timothy	Reiad<br>(Massachusetts)</h3>
+    <p>“"This conference has helped me in several ways and in various areas. Firstly, this conference most certainly has helped me expand my knowledge on different topics regarding global health and global medicine. Through the HGHLC, I've heard many speakers from top institutions speak about their experiences in global health. This allowed me to expand my knowledge and improve my understanding of different topics surrounding global health. Secondly, this conference has helped me improve my presentation skills. First off, producing my own study and implementing my study is a highly important skill that I learned through previous presentations at the conference. This conference has helped me learn the basic skills of creating your own project and going on to present it to fellow peers. This is a key skill to have especially when entering college and furthermore into fields of medicine. Not only did this conference help me learn how to create a study, but it also helped me improve my public speaking skills. If it wasn't for this conference, I would not have been able to have the opportunity to practice and to develop my presentational skills. Furthermore, this conference has helped me improve my collaboration and networking skills as I learned to interact with other students who have similar interests/goals as I do. These are only a few of the many impacts the conference has had on me.”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Sameena Shariff<br>(Canada)</h3>
+    <p>“I was delighted to meet outstanding doctors, Harvard undergraduates, and most importantly, other ambitious high school students interested in global health." <br>"Shigeko Sasamori, one of the only survivors from the Hiroshima bombings in 1945, came to speak about her experiences.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Caitlin Paquette<br>(Michigan)</h3>
+    <p>“I began to really see the impact of mental health. This conference did a wonderful job of talking about less talked about aspects of global health. We can talk about AIDs and Malaria all day, because they are serious issues, but this year disabilities, and war, and mental health were discussed which was really important.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Ashani Kurukulasuriya<br>(Massachusetts)</h3>
+    <p>“I sincerely appreciate the effort this program puts towards helping students who are passionate about global health. The conference opened many doors for individuals all around the world. They have truly been exceptional in responding to all of my questions and have been there to guide me whenever it was needed. They have made it very clear to all of us 'global health people' that they care deeply about the sustainability and success of this program.”</p></span>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Philippa Schunk<br>(Germany)</h3>
+    <p>“I feel so encouraged to do more now, I feel inspired from the project that my peers conduct and also what they can become and form into. I feel like I have a huge support, all the speakers were so open to communication and I feel like that is the same in the field.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Tha Dah Say <br>(California)</h3>
+    <p>“It was interesting focusing on mental health services and the overall inequalities in communities and countries in basic services like water and severe poverty affecting mental health.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Olivia Stapf <br>(Missouri)</h3>
+    <p>“There is nothing but benefits for someone who attends this conference. Personally, it really opened my eyes and inspired me to start making my own impact.”</p></span>
+  </div>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Tianqi Feng<br>(China)</h3>
+    <p>“Even though I was only at the conference for a short time, I totally enjoyed it! I also felt the conference is diverse in terms of the different aspects of global health it has reached.”</p></span>
+  </div>
+  <div class="column" style="background-color:#1B90B7;"><span style="color:#FFFFFF; font-size:16px;">
+    <h3>Pranav Kanmadikar<br>(Kentucky)</h3>
+    <p>“Communication is a key aspect of Global health, both when a contagion is spreading and when messages about the latest findings on chronic disease or how to live a healthy lifestyle may resonate.”</p></span>
+  </div>
+    <div class="column" style="background-color:#1B90B7;"> <span style="color:#FFFFFF; font-size:16px;">
+    <h3>Iris Berendes-Dean<br>(Maryland)</h3>
+    <p>“It is a rare opportunity to see what amazing things are possible in the realm of Global Health and that it is truly inspirational to see so many people motivated to do good in the world.”</p></span>
+  </div>
+</div>
+
+<footer>
+    <div class="region region-footer">
+    <div class="container footer__container">
+     
+<nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+              <ul data-region="footer">
+                    <li class="menu-item--about-us menu-item--expandable">
+        <a href="https://visionghs.github.io//About" data-drupal-link-system-path="node/72551">About Us</a>
+                                <ul>
+                    <li class="menu-item--our-vision--values">
+        <a href="https://visionghs.github.io//About/Vision">Our Vision &amp; Values</a>
+              </li>
+                <li class="menu-item--our-history">
+        <a href="https://visionghs.github.io//About/History" data-drupal-link-system-path="node/72646">Our History</a>
+              </li>
+                <li class="menu-item--our-leadership">
+        <a href="https://visionghs.github.io//About/Team">Our Leadership</a>
+              </li>
+                <li class="menu-item--our-structure">
+        <a href="https://visionghs.github.io//About/Conference">Our Conference</a>
+              </li>
+                <li class="menu-item--our-partners">
+        <a href="https://visionghs.github.io//About/Partners" data-drupal-link-system-path="group/1026">Our Partners</a>
+              </li>
+                <li class="menu-item--accountability">
+        <a href="https://visionghs.github.io//GetInvolved/Highschool/Scholars" data-drupal-link-system-path="node/72741">Scholars</a>
+              </li>
+                <li class="menu-item--faq">
+        <a href="https://visionghs.github.io//Highschool/Scholars">Scholars</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--our-approaches-to-change menu-item--expandable">
+        <a href="https://visionghs.github.io//GHLC" data-drupal-link-system-path="node/72731">Global Health and Leadership Conference</a>
+                                <ul>
+                    <li class="menu-item--our-global-strategy">
+        <a href="https://visionghs.github.io//GHLC/Apply" data-drupal-link-system-path="node/72696">Apply</a>
+              </li>
+                <li class="menu-item--the-role-of-faith">
+        <a href="https://visionghs.github.io//GHLC/Speakers" data-drupal-link-system-path="node/72726">Speakers</a>
+              </li>
+                <li class="menu-item--global-campaign">
+        <a href="https://visionghs.github.io//GHLC/FAQS" data-drupal-link-system-path="group/1">FAQS</a>
+              </li>    
+        </ul>
+  
+              </li>
+                <li class="menu-item--careers--internships menu-item--expandable">
+        <a href="https://visionghs.github.io//GetInvolved"> Join Our Mission</a>
+                                <ul>
+                    <li class="menu-item--open-positions">
+        <a href="https://visionghs.github.io//GetInvolved/College">College & Graduate Students</a>
+              </li>
+                <li class="menu-item--explore-teams">
+        <a href="https://visionghs.github.io//GetInvolved/Highschool">High School Students</a>
+              </li>
+                <li class="menu-item--explore-locations">
+        <a href="https://visionghs.github.io//GetInvolved/Middleschool">Middle School Students</a>
+              </li>
+                <li class="menu-item--our-culture">
+        <a href="https://visionghs.github.io//GetInvolved/Professionals">Postgraduate & Professionals</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item--connect-with-us menu-item--expandable">
+        <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Connect With Us</a>
+                                <ul>
+                    <li class="menu-item--facebook">
+        <a href="https://www.facebook.com/HarvardVision/" class="fa fa-facebook">Facebook</a>
+              </li>
+                <li class="menu-item--youtube">
+        <a href="https://www.youtube.com/" class="fa fa-youtube">Youtube</a>
+              </li>
+                <li class="menu-item--twitter">
+        <a href="https://twitter.com/Harvard_Vision" class="fa fa-twitter">Twitter</a>
+              </li>
+                <li class="menu-item--instagram">
+        <a href="https://www.instagram.com/harvardcollegevision/" class="fa fa-instagram">Instagram</a>
+              </li>
+                <li class="menu-item--linkedin">
+        <a href="https://www.linkedin.com/in/paulmatthewlewis/" class="fa fa-linkedin">LinkedIn</a>
+              </li>
+                <li class="menu-item--contact-us">
+        <a href="https://visionghs.github.io//Contact" data-drupal-link-system-path="node/72846">Contact Us</a>
+              </li>
+                <li class="menu-item--world-vision-in-your-country">
+        <a href="mailto:info@harvardcollegevision.org" data-drupal-link-system-path="node/72811">Email</a>
+              </li>
+                <li class="menu-item--report-a-concern">
+        <a href="https://www.messenger.com/t/HarvardVision">Facebook Messenger</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+<div id="block-accountablenowlogo" class="block block-block-content block-block-contentc32d35ab-86e0-4257-b5df-c684ffe90575 block--accountablenowlogo">
+  
+    
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden"><p> </p>
+  </div>
+<nav role="navigation" aria-labelledby="block-footerlegal-menu" id="block-footerlegal" class="block block-menu navigation menu--footer-legal">
+            
+  <h2 class="visually-hidden" id="block-footerlegal-menu">Footer Legal</h2>
+  
+
+        
+              <ul data-region="footer">
+          <li class='copyright'>&copy; 2020 Vision Global Health Society</li>
+          <li>
+        <a href="https://visionghs.github.io//History" data-drupal-link-system-path="node/41736">Founded: 2014</a>
+              </li>
+          <li>
+        <a href="https://college.harvard.edu/" data-drupal-link-system-path="node/45251">Harvard College</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+  </div>
+
+
+  </div>
+
+
+<script src="https://visionghs.github.io//js/js_BAqaKhzdQpF_4bl5P0uflguXHhjaa6x5RJiqg5l-nmo.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"006b5744c1","applicationID":"115598855","transactionName":"MVwHZkMDWxBSVhUPDQgWJFFFC1oNHHETExIHVTlxXhBQP3VaEws+IFYXX3MXXA9XUBNLXBRcC1ZUEGUPUlYEDg0KXQBAdw1HDnJWFQ8NCA==","queueTime":0,"applicationTime":311,"atts":"HRsEEAsZSB4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+ 
