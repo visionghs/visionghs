@@ -438,7 +438,7 @@
       <div class="claim__subtitle">
   Students Mentored
   </div>
-      <a href="https://visionghs.github.io//About/Mentoring" class="btn btn--secondary--blue">learn more</a>
+      <a href="https://visionghs.github.io//GHLC/Testimonials" class="btn btn--secondary--blue">learn more</a>
   </div>
         <div class="eck-entity component-claim">
     <div class="claim__title">
@@ -743,7 +743,7 @@
       
         </div>
                     <div class="cta__btns">
-          <a href="https://visionghs.github.io//Highschool/Scholars" class="cta__btn">Learn More</a>
+          <a href="https://visionghs.github.io//GetInvolved/Highschool/Scholars" class="cta__btn">Learn More</a>
         </div>
           </div>
   </div>
